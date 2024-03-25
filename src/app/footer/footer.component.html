@@ -1,1 +1,72 @@
-<p>footer works!</p>
+<footer>
+    <section class="join">
+        <div class="title">
+            <h2>
+                Join Waitlist
+            </h2>
+            <p>
+                Ready yo transform your bussiness? Join our waitlist now & be the first to experience unparalleled
+                efficiency!
+            </p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="logo-div">
+            <img src="../../assets/new_images/logo.png" />
+        </div>
+
+        <div class="main-div">
+            <div class="contact">
+                <h3>Quick Contact</h3>
+                <div class="info">
+                    <a href="https://maps.app.goo.gl/S73RHQWJ3rkgEgKS7">
+                        <img src="../../assets/new_images/map.png" />
+                        8-2, 326/5, Rd Number 3, Green Valley, Banjara Hills, Hyderabad, Telangana 500034
+                    </a>
+                    <a href="tel:(650)-629-3578">
+                        <img src="../../assets/new_images/call.png" />
+                        (650)-629-3578
+                    </a>
+                    <a href="mailTo:restaurants@tryantler.com">
+                        <img src="../../assets/new_images/mail.png" />
+                        restaurants@tryantler.com
+                    </a>
+                </div>
+                <h3>Connect Us</h3>
+                <div class="social">
+                    <a href="https://www.linkedin.com/company/91412318/admin/feed/posts/">
+                        <img src="../../assets/new_images/linkedn.png" />
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100090764672725">
+                        <img src="../../assets/new_images/fb.png" />
+                    </a>
+                    <a href="https://www.instagram.com/antler.technologies">
+                        <img src="../../assets/new_images/insta.png" />
+                    </a>
+                    <a href="https://twitter.com/tryantlertech">
+                        <img src="../../assets/new_images/Twitter.png" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="services">
+                <h3>Services</h3>
+                <p>
+                    <a *ngFor="let link of services" [routerLink]="link.url">
+                        {{link.name}}
+                    </a>
+                </p>
+            </div>
+
+            <div class="links">
+                <h3>Quick Links</h3>
+                <p>
+                    <a *ngFor="let link of links" [routerLink]="link.url">
+                        {{link.name}}
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+</footer>

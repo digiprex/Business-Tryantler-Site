@@ -1,0 +1,91 @@
+.navbar {
+    top: 0px;
+    position: sticky;
+    margin-bottom: 0px;
+    background-color: #0F0E0E;
+    border-bottom: 0px;
+    padding: 20px;
+
+    .container {
+        width: 100%;
+
+        .navbar-header {
+            a {
+                img {
+                    width: 150px;
+                }
+            }
+
+            .navbar-toggle {
+
+                .icon-bar {
+                    background-color: #F4F4F4;
+                }
+
+                .material-icons-outlined {
+                    color: #F4F4F4;
+                }
+            }
+        }
+
+        .navbar-collapse {
+
+            .navbar-nav {
+                display: flex;
+                justify-content: end;
+                align-items: center;
+                float: none;
+
+                li {
+                    a {
+                        color: #F4F4F4;
+                        font-weight: 400;
+                        font-size: 16px;
+                        font-family: "Poppins", sans-serif;
+                    }
+                }
+
+                .external {
+                    button {
+                        border-radius: 8px;
+                        background: #07F;
+                        padding: 10px 20px;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 500;
+                        border: none;
+                    }
+
+                    button:hover {
+                        background: #fff;
+                        color: #07F;
+                    }
+                }
+
+                .active a {
+                    color: #566CEE;
+                    border-bottom: 2px solid #566CEE;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .navbar {
+        .container {
+
+            .navbar-collapse {
+
+                .navbar-nav {
+                    display: grid;
+                    justify-content: start;
+                    float: left;
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}

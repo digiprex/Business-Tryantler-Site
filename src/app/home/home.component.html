@@ -1,5 +1,131 @@
 <main>
     <app-navbar></app-navbar>
-    Home
+
+    <section class="home-banner">
+        <ng-image-slider [images]="homesSliderImage" [infinite]="true" [autoSlide]="1" [imagePopup]="false"
+            [imageSize]="{ width: '100%', height: '80%' }" slideImage="1" #nav [animationSpeed]="3">
+        </ng-image-slider>
+        <div class="content-section">
+            <h5>are you hungry</h5>
+            <h1>Discover Restaurant & <br> Delicious Food</h1>
+            <div class="btn">
+                <button>VIEW OUR MENU &#8594;</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-div">
+            <div class="outer-service" *ngFor="let service of services">
+                <div>
+                    <img src="{{service.img}}" alt="">
+                    <h3>{{service.title}}</h3>
+                </div>
+                <a routerLink="{{service.cta}}">
+                    <button>
+                        Explore
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <a class="mobileview" routerLink="/services">
+            <button>
+                Explore
+            </button>
+        </a>
+    </section>
+
+    <section class="orders">
+        <div class="image">
+            <img src="../../assets/new_images/order-mobile-home.png">
+        </div>
+        <div class="content">
+            <h2>
+                Take direct orders on your website
+            </h2>
+            <p>
+                Orders are delivered by food delivery pros at a low flat fee. Collect your customer information and take
+                control over your business once again.
+            </p>
+            <div class="deliverables">
+                <img src="../../assets/new_images/postmates.png" />
+                <img src="../../assets/new_images/doordash.png" />
+                <img src="../../assets/new_images/ubereats.png" />
+            </div>
+        </div>
+    </section>
+
+    <section class="socials">
+        <div class="title">
+            <h2>
+                Turn your social media channels into storefronts
+            </h2>
+            <p>
+                Set your social media on auto-pilot. We offer plans to fit every budget when it comes to advertising
+                your
+                business within these platforms. 
+            </p>
+            <p>
+                Our average return on every dollar spent is over ~8 dollars generated in sales.
+            </p>
+        </div>
+
+        <div class="content">
+            <img src="../../assets/new_images/social-icons-home.png" alt="">
+        </div>
+    </section>
+
+
+
+    <section class="revenue">
+        <div class="content">
+            <img src="../../assets/new_images/rocket-home.png" />
+
+            <div>
+                <h2>
+                    Boost revenue and increase commissions
+                </h2>
+                <p>
+                    Setup on the major delivery partners at no additional cost. We can effectively maintain delivery
+                    partner
+                    profiles in order to maximize volume.
+                </p>
+                <p>
+                    Dynamically priced menu items to maximize revenue on every order. Helps restaurants improve their
+                    topline by an average of $4500 a month.
+                </p>
+                <p>
+                    Save thousands of dollars in commission from orders through these platforms. La Luna Cantina saved
+                    over
+                    $8000 in commissions just last month.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="platform">
+        <div class="content">
+            <h2>
+                One platform for all your online orders
+            </h2>
+            <div>
+                <p>
+                    You can now turn off all other tablets and manage all online orders from one screen. No more messy
+                    workplaces with many tablets, printers, and scattered reports. Antler will streamline all your
+                    numbers in a single reporting dashboard, and automatically accept all online orders and send to the
+                    kitchen.
+                </p>
+                <p>
+                    Upcharge/Refund, Delay or Pause orders, and mark items “sold out“. Orders can be printed at one
+                    station or send tickets to multiple kitchen stations. Antler helps promote your brand and coupons on
+                    the receipt.
+                </p>
+            </div>
+        </div>
+    </section>
+
     <app-footer></app-footer>
 </main>
