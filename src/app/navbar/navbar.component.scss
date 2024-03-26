@@ -2,17 +2,20 @@
     top: 0px;
     position: sticky;
     margin-bottom: 0px;
-    background-color: #0F0E0E;
+    background-color: #fff;
     border-bottom: 0px;
     padding: 20px;
 
     .container {
         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         .navbar-header {
             a {
                 img {
-                    width: 150px;
+                    width: 110px;
                 }
             }
 
@@ -35,20 +38,24 @@
                 justify-content: end;
                 align-items: center;
                 float: none;
+                gap: 30px;
 
                 li {
+                    list-style-type: none;
+
                     a {
-                        color: #F4F4F4;
+                        color: #000;
                         font-weight: 400;
                         font-size: 16px;
-                        font-family: "Poppins", sans-serif;
+                        font-family: "Fraunces", serif;
+                        text-decoration: none;
                     }
                 }
 
                 .external {
                     button {
                         border-radius: 8px;
-                        background: #07F;
+                        background: #402218;
                         padding: 10px 20px;
                         color: #FFF;
                         text-align: center;
@@ -59,13 +66,13 @@
 
                     button:hover {
                         background: #fff;
-                        color: #07F;
+                        color: #402218;
                     }
                 }
 
                 .active a {
-                    color: #566CEE;
-                    border-bottom: 2px solid #566CEE;
+                    color: #402218;
+                    border-bottom: 2px solid #402218;
                     font-weight: 600;
                 }
             }

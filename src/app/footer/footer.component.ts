@@ -12,58 +12,13 @@ export class FooterComponent {
       "url": "/home"
     },
     {
-      "name": "Services",
-      "url": "/services"
+      "name": "About Us",
+      "url": "/about"
     },
     {
       "name": "Contact Us",
-      "url": "/contact"
+      "url": "/contact",
+      "external": true
     },
-    {
-      "name": "Pricing",
-      "url": "/pricing"
-    },
-    {
-      "name": "Blogs",
-      "url": "/services"
-    },
-    {
-      "name": "App",
-      "url": "/apps"
-    },
-    {
-      "name": "Raise A Request",
-      "url": "/request"
-    },
-    {
-      "name": "Refund & Cancellation Policy",
-      "url": "/policies"
-    },
-    {
-      "name": "Help & Support",
-      "url": "/faq"
-    }
-  ];
-  public services = [
-    {
-      "name": "Social Media Management",
-      "url": "/services"
-    },
-    {
-      "name": "Web Design + Development",
-      "url": "/services"
-    },
-    {
-      "name": "Search Engine Optimization",
-      "url": "/services"
-    },
-    {
-      "name": "Text + Email Marketing",
-      "url": "/services"
-    },
-    {
-      "name": "Reputation Management",
-      "url": "/services"
-    }
   ];
 }

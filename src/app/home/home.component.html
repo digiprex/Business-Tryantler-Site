@@ -14,118 +14,59 @@
         </div>
     </section>
 
-    <section class="services">
-        <h2>Our Services</h2>
-        <div class="service-div">
-            <div class="outer-service" *ngFor="let service of services">
-                <div>
-                    <img src="{{service.img}}" alt="">
-                    <h3>{{service.title}}</h3>
-                </div>
-                <a routerLink="{{service.cta}}">
-                    <button>
-                        Explore
-                    </button>
-                </a>
-            </div>
+    <section class="aboutus">
+        <div class="aboutus-image">
+            <img
+                src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4bbca137-70e1-4a71-b42f-dbd4e6787626_about-img.png">
         </div>
-
-        <a class="mobileview" routerLink="/services">
-            <button>
-                Explore
-            </button>
-        </a>
-    </section>
-
-    <section class="orders">
-        <div class="image">
-            <img src="../../assets/new_images/order-mobile-home.png">
-        </div>
-        <div class="content">
-            <h2>
-                Take direct orders on your website
-            </h2>
-            <p>
-                Orders are delivered by food delivery pros at a low flat fee. Collect your customer information and take
-                control over your business once again.
-            </p>
-            <div class="deliverables">
-                <img src="../../assets/new_images/postmates.png" />
-                <img src="../../assets/new_images/doordash.png" />
-                <img src="../../assets/new_images/ubereats.png" />
-            </div>
+        <div class="aboutus-content">
+            <h5>Our Story</h5>
+            <h2>GOOD FOOD, DRINKS & <br>
+                COMPANY. </h2>
+            <p>Join us at the table as you dine for the perfect meal.</p>
+            <button>MORE ABOUT US &#8594;</button>
         </div>
     </section>
 
-    <section class="socials">
-        <div class="title">
-            <h2>
-                Turn your social media channels into storefronts
-            </h2>
-            <p>
-                Set your social media on auto-pilot. We offer plans to fit every budget when it comes to advertising
-                your
-                business within these platforms. 
-            </p>
-            <p>
-                Our average return on every dollar spent is over ~8 dollars generated in sales.
-            </p>
+    <section class="our-restaurent">
+        <div class="heading-div">
+            <h2>OUR RESTAURANT</h2>
+            <h5>Quality Products</h5>
         </div>
-
-        <div class="content">
-            <img src="../../assets/new_images/social-icons-home.png" alt="">
-        </div>
-    </section>
-
-
-
-    <section class="revenue">
-        <div class="content">
-            <img src="../../assets/new_images/rocket-home.png" />
-
-            <div>
-                <h2>
-                    Boost revenue and increase commissions
-                </h2>
-                <p>
-                    Setup on the major delivery partners at no additional cost. We can effectively maintain delivery
-                    partner
-                    profiles in order to maximize volume.
-                </p>
-                <p>
-                    Dynamically priced menu items to maximize revenue on every order. Helps restaurants improve their
-                    topline by an average of $4500 a month.
-                </p>
-                <p>
-                    Save thousands of dollars in commission from orders through these platforms. La Luna Cantina saved
-                    over
-                    $8000 in commissions just last month.
-                </p>
+        <div class="restaurent-content">
+            <div class="inner-container">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4c1d1e89-8cc9-44bd-bb9f-c3a253858d55_restaurent1.png"
+                    alt="">
+                <div class="line_height"> </div>
+                <h2>FRESH SEAFOOD</h2>
+                <p>Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo.</p>
             </div>
 
-        </div>
-    </section>
+            <div class="inner-container">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/099f149f-79eb-4164-af3d-4d83e83ec141_restaurent2.png"
+                    alt="">
+                <div class="line_height"> </div>
+                <h2>OYSTER BAR</h2>
+                <p>Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo.</p>
+            </div>
 
-    <section class="platform">
-        <div class="content">
-            <h2>
-                One platform for all your online orders
-            </h2>
-            <div>
-                <p>
-                    You can now turn off all other tablets and manage all online orders from one screen. No more messy
-                    workplaces with many tablets, printers, and scattered reports. Antler will streamline all your
-                    numbers in a single reporting dashboard, and automatically accept all online orders and send to the
-                    kitchen.
-                </p>
-                <p>
-                    Upcharge/Refund, Delay or Pause orders, and mark items “sold out“. Orders can be printed at one
-                    station or send tickets to multiple kitchen stations. Antler helps promote your brand and coupons on
-                    the receipt.
-                </p>
+            <div class="inner-container">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/424bfd61-e951-4a5c-ba92-81f5a77aef19_restauren3.png"
+                    alt="">
+                <div class="line_height"> </div>
+                <h2>POKE & SASHIMI</h2>
+                <p>Cursus mattis molestie a iaculis at erat pellentesque adipiscing commodo.</p>
             </div>
         </div>
     </section>
+
+    <section class="seafood-banner">
+        <div class="seafood-heading">
+            <h5>Our Unique </h5>
+            <h5>Seafood Dishes</h5>
+        </div>
+    </section>
+
 
     <app-footer></app-footer>
 </main>

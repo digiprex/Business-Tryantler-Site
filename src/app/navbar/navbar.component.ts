@@ -13,26 +13,14 @@ export class NavbarComponent implements OnInit {
       "url": "/home"
     },
     {
-      "name": "Services",
-      "url": "/services"
+      "name": "About Us",
+      "url": "/about"
     },
     {
       "name": "Contact Us",
       "url": "/contact",
       "external": true
     },
-    {
-      "name": "Pricing",
-      "url": "/pricing"
-    },
-    {
-      "name": "Blogs",
-      "url": "/blogs"
-    },
-    {
-      "name": "App",
-      "url": "/apps"
-    }
   ]
   constructor() { }
 
