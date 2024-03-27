@@ -52,12 +52,20 @@ export class HomeComponent {
 
   homesSliderImage = [
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b8824377-faa0-46c8-ba07-d3019e42edd1_leo_vonaco_slide.png",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b8824377-faa0-46c8-ba07-d3019e42edd1_leo_vonaco_slide.png"
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a8e762bd-aee0-452f-b1fb-16577d3df282_97.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a8e762bd-aee0-452f-b1fb-16577d3df282_97.jpg"
     },
     {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7ca167fd-37f5-455b-acf1-6dea59d8a9b0_slider2.png",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7ca167fd-37f5-455b-acf1-6dea59d8a9b0_slider2.png"
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/62cbcbb8-de01-4caa-8832-d49d84e7eeb0_94.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/62cbcbb8-de01-4caa-8832-d49d84e7eeb0_94.jpg"
+    },
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/caae64bf-2ccc-419d-9689-1f81fca9fe41_95.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/caae64bf-2ccc-419d-9689-1f81fca9fe41_95.jpg"
+    },
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f05593ed-d6c4-4a1d-bf19-759cd17b3732_96.jpg",
+      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f05593ed-d6c4-4a1d-bf19-759cd17b3732_96.jpg"
     }
   ];
 }
