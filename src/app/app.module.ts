@@ -12,6 +12,13 @@ import { AboutComponent } from './about/about.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { PostsComponent } from './posts/posts.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { CartComponent } from './cart/cart.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from "@angular/common/http";
+
+export function HttpLoaderFactory(httpClient: HttpClient) {
+}
 
 @NgModule({
   declarations: [
@@ -24,12 +31,17 @@ import { GalleryComponent } from './gallery/gallery.component';
     AboutComponent,
     BlogsComponent,
     PostsComponent,
-    GalleryComponent
+    GalleryComponent,
+    CartComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
