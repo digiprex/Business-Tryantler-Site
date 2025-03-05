@@ -11,12 +11,12 @@ export class AppComponent {
   public web: any;
 
   constructor(private appService: AppService, public translate: TranslateService) {
-    translate.addLangs(['fr', 'en']);
-    translate.setDefaultLang('fr');
+    // translate.addLangs(['fr', 'en']);
+    // translate.setDefaultLang('en');
     let browserLang: any;
     browserLang = translate.getBrowserLang();
-    translate.use('fr');
+    // translate.use('fr');
 
   }
-  title = 'Mont-Everest-Masala-Site';
+  title = 'Antler-Technologies';
 }

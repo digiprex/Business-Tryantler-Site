@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import * as mounteverestmasalacomData from 'mounteverest.com.json';
+import * as antlertechnologiescomData from 'antlertechnologies.com.json';
 
 
 @Injectable({
@@ -10,7 +10,7 @@ import * as mounteverestmasalacomData from 'mounteverest.com.json';
 
 export class AppService {
   public apiUrl = 'https://yejrescws7.execute-api.ap-south-1.amazonaws.com/staging';
-  public data = mounteverestmasalacomData;
+  public data = antlertechnologiescomData;
   constructor(private http: HttpClient) { }
 
   cartCheckout(data: any): Observable<any> {
@@ -31,12 +31,22 @@ export class AppService {
       type: 'Contact Us'
     };
     return this.http.post(
-      `https://submit-form.com/yv1cmUhty`, requestBody
+      `https://submit-form.com/V2fJkWKnw`, requestBody
+    );
+  }
+
+  newsletterSubmission(data: any): Observable<any> {
+    let requestBody = {
+      ...data,
+      type: 'Newsletter'
+    };
+    return this.http.post(
+      `https://submit-form.com/V2fJkWKnw`,
+      requestBody
     );
   }
 
   getContentData(key: any) : any{
-    console.log("data",(this.data as any)[key]);
     return (this.data as any)[key];
     
   }

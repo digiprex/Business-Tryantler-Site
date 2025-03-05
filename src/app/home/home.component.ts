@@ -16,6 +16,10 @@ export class HomeComponent {
   public sliderImage: any;
   public templatetype: any;
   public hero: any;
+  public success = false;
+  userDetails1 = new FormGroup({
+    email: new FormControl("")
+  });
 
   constructor(private appService: AppService, private sanitizer: DomSanitizer, private router: Router, private formBuilder: FormBuilder, private renderer: Renderer2, private titleService: Title, private metaService: Meta) {
     this.templatetype = this.appService.getContentData('templatetype');
@@ -131,4 +135,12 @@ export class HomeComponent {
       "price": "CA$20.99"
     }
   ]
+  formSubmit() {
+    let body = {
+      email: this.userDetails1.value.email
+    }
+    this.appService.newsletterSubmission(body).subscribe(result => {
+      this.success = true;
+    })
+  }
 }

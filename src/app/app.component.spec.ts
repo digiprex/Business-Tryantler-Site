@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Mont-Everest-Masala-Site'`, () => {
+  it(`should have as title 'Antler-Technologies'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Mont-Everest-Masala-Site');
+    expect(app.title).toEqual('Antler-Technologies');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('Mont-Everest-Masala-Site app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('Antler-Technologies app is running!');
   });
 });

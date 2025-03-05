@@ -12,6 +12,10 @@ import { Title, Meta } from '@angular/platform-browser';
 export class ContactComponent {
   public successMsg: boolean = false;
   public success = false;
+  public hero: any;
+  userDetails1 = new FormGroup({
+    email: new FormControl("")
+  });
 
   contactDetails = new FormGroup({
     firstName: new FormControl(""),
@@ -32,7 +36,7 @@ export class ContactComponent {
     this.metaService.updateTag({ name: 'description', content: 'Mont Everest Masala in Montreal serves the best South Indian cuisine. Explore a menu brimming with veg and non-veg delights. Satisfaction awaits!' });
   }
 
-  montsubmitForm() {
+  submitForm() {
     let body = {
       firstName: this.contactDetails.value.firstName,
       lastName: this.contactDetails.value.lastName,
@@ -43,5 +47,13 @@ export class ContactComponent {
     this.appService.contactformSubmission(body).subscribe(result => {
       this.success = true;
     });
+  }
+  formSubmit() {
+    let body = {
+      email: this.userDetails1.value.email
+    }
+    this.appService.newsletterSubmission(body).subscribe(result => {
+      this.success = true;
+    })
   }
 }

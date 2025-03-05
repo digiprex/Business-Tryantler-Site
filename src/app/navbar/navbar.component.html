@@ -1,22 +1,28 @@
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <a href="/home"> <img alt="logo"
-                    src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f32a1d25-1e59-46f4-b6d8-be2c34e82312_logo.png" />
-            </a>
+<div class="heading" [style]="css.navbar">
+    <div class="logoDesktop">
+        <img *ngIf="logo" routerLink="/" [src]="logo" [style]="css.logo" />
+        <img *ngIf="halal" routerLink="/" [src]="halal" [style]="css.halalsize" />
+        <p [style]="css.tagLine" *ngIf="tagLine">{{tagLine}}</p>
+    </div>
 
-            <button *ngIf="!close" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1" (click)="change(!close)">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            <img *ngIf="logo" class="logoMobile" routerLink="/" [src]="logo" [style]="css.logo" />
+            <img *ngIf="halal" class="logoMobile halal" routerLink="/" [src]="halal" [style]="css.halalsize" />
+            <p class="logoMobile" [style]="css.tagLine" *ngIf="tagLine">{{tagLine}}</p>
 
             <button *ngIf="close" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1" (click)="change(!close)">
+                data-target="#bs-example-navbar-collapse-1" (click)="change()">
+                <span [style]="css.icon" class="sr-only">Toggle navigation</span>
+                <span [style]="css.icon" class="icon-bar"></span>
+                <span [style]="css.icon" class="icon-bar"></span>
+                <span [style]="css.icon" class="icon-bar"></span>
+            </button>
+
+            <button *ngIf="!close" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1" (click)="change()">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="material-symbols-outlined">
+                <span [style]="css.icon" class="material-symbols-outlined">
                     close
                 </span>
             </button>
@@ -24,11 +30,54 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li routerLinkActive="active" *ngFor="let link of ('NAVBAR.links' | translate)">
-                    <a *ngIf="!link.external" [routerLink]="link.url">{{link.name | translate}}</a>
-                    <a target="_blank" *ngIf="link.external" [href]="link.url">{{link.name | translate}}</a>
+                <li *ngFor="let link of links">
+                    <a [style]="css.navbarTextColor" *ngIf="link.type === 'internal'"
+                        queryParamsHandling="merge" routerLinkActive="active" class="nav-link"
+                        [routerLink]="link.link">{{link.text}}</a>
+
+                    <a [style]="css.navbarTextColor" *ngIf="link.type === 'external' && !link.options.length"
+                        [href]="link.link">{{link.text}}</a>
+
+                    <a [style]="css.navbarTextColor" *ngIf="link.type === 'external' && link.options?.length"
+                        class="nav-link dropdown-toggle" routerLinkActive="active" id="navbarDropdown"
+                        role="button" (click)="toggleButton(link.text)"
+                        [attr.aria-expanded]="(isDropdownOpen) ? 'true' : 'false'" aria-haspopup="true"
+                        (mouseover)="closeDropdown()">
+                        {{ link.text }}
+                    </a>
+
+                    <div class="dropdown-menu" [ngClass]="{ 'show': isDropdownOpen }"
+                        *ngIf="selectedCategory == link.text" (mouseleave)="closeDropdown()"
+                        [style]="css.navbar">
+                        <div class="dropdown-values" *ngFor="let option of link.options">
+                            <a *ngIf="!option.options" [style]="css.navbarTextColor" [href]="option.link"
+                                class="dropdown-item">{{option.name}}</a>
+
+                            <a [style]="css.navbarTextColor" *ngIf="option.options"
+                                (click)="toggleSubCategories(option)" class="dropdown-item">{{option.name }}
+                            </a>
+                            <ul *ngIf="option.options && selectedNavCategory && option.name == selectedNavCategory?.name"
+                                class="sub-categories">
+                                <li *ngFor="let op of selectedNavCategory.options">
+                                    <a [style]="css.navbarTextColor" [href]="op.link">{{ op.name }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a [style]="css.navbarButton" [href]="link.link" target="_blank"
+                        *ngIf="link.type === 'button'">
+                        {{ link.text }}
+                    </a>
+
+                    <a [style]="css.navbarButton" target="_blank" (click)="toggleButton(link.text)"
+                        [attr.aria-expanded]="(isDropdownOpen) ? 'true' : 'false'" aria-haspopup="true"
+                        (mouseover)="closeDropdown()"
+                        *ngIf="link.type === 'dropdownbutton' && link.options?.length">
+                        {{ link.text }}
+                    </a>
                 </li>
             </ul>
         </div>
-    </div>
-</nav>
+    </nav>
+</div>

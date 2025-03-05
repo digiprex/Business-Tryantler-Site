@@ -1,93 +1,31 @@
-<main *ngIf="host =='gulabJamun'">
+<main *ngIf="host =='websiteBuilder'">
     <app-navbar></app-navbar>
-    <meta name="title" content="How to Make Authentic Gulab Jamun at Home | Traditional Indian Dessert Recipe">
-    <meta name="description"
-        content="Discover the step-by-step recipe for making authentic Gulab Jamun, a classic Indian dessert. Learn about the ingredients, preparation, and variations like Gulab Jamun cake and ice cream. Perfect for festivals and celebrations.">
-
-    <section class="home-banner"
-        style="background-image:linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)), url({{hero.gulabJamun}});">
-        <h1>{{ 'blogs.gulabheading1' | translate }}</h1>
-    </section>
-
     <div class="container">
-        <h1>{{ 'blogs.gulabheading2' | translate }}</h1>
-        <img
-            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9eeccbe-d22d-49ae-bccb-50fde7a069e9_Gulab%20jamum.png" />
-        <div>
-            <p>{{ 'blogs.gulabpara1' | translate }}</p>
-            <p>{{ 'blogs.gulabpara2' | translate }}</p>
-            <p>{{ 'blogs.gulabpara3' | translate }}</p>
-
-            <p><span>{{ 'blogs.blogContent1' | translate }}:</span> <br>{{ 'blogs.blogContent2' | translate }}
-            </p>
-
-            <p>• {{ 'blogs.blogContent3' | translate }}</p>
-            <p>• {{ 'blogs.blogContent4' | translate }}</p>
-            <p>• {{ 'blogs.blogContent5' | translate }}</p>
-            <p>• {{ 'blogs.blogContent6' | translate }}</p>
-            <p>• {{ 'blogs.blogContent7' | translate }} </p>
-            <p>• {{ 'blogs.blogContent8' | translate }} </p>
-            <p>• {{ 'blogs.blogContent9' | translate }} </p>
-            <p>• {{ 'blogs.blogContent10' | translate }} </p>
-            <p>• {{ 'blogs.blogContent11' | translate }}</p>
-
-            <p> {{ 'blogs.blogContent12' | translate }}</p>
-
-            <span>{{ 'blogs.blogContent13' | translate }}</span>
-
-            <span>{{ 'blogs.blogContent14' | translate }}:</span>
-
-            <p>• {{ 'blogs.blogContent15' | translate }} </p>
-            <p>• {{ 'blogs.blogContent16' | translate }}</p>
-            <p>• {{ 'blogs.blogContent17' | translate }}</p>
-
-
-            <span> {{ 'blogs.blogContent18' | translate }}: </span>
-            <p>• {{ 'blogs.blogContent19' | translate }}</p>
-
-            <p><span> {{ 'blogs.blogContent20' | translate }}:</span></p>
-
-            <p>• {{ 'blogs.blogContent21' | translate }}</p>
-            <p>• {{ 'blogs.blogContent22' | translate }}</p>
-
-
-            <span> {{ 'blogs.blogContent23' | translate }} </span>
-            <p>• {{ 'blogs.blogContent24' | translate }}</p>
-
-
-            <span>{{ 'blogs.blogContent25' | translate }}: </span>
-            <p>• {{ 'blogs.blogContent26' | translate }}</p>
-
-            <span>{{ 'blogs.blogContent27' | translate }}:</span>
-
-            <p>• {{ 'blogs.blogContent28' | translate }}</p>
-
-            <span> {{ 'blogs.blogContent29' | translate }}</span>
-
-            <p> {{ 'blogs.blogContent30' | translate }}
-            </p>
-
-            <p><span> {{ 'blogs.blogContent31' | translate }}</span><br> {{ 'blogs.blogContent32' | translate }}</p>
-            <p>{{ 'blogs.blogContent33' | translate }}</p>
-
-            <p>{{ 'blogs.blogContent34' | translate }}</p>
-
-            <p><span>{{ 'blogs.blogContent35' | translate }}</span> <br> {{ 'blogs.blogContent36' | translate }}</p>
-
-            <p><span>{{ 'blogs.blogContent37' | translate }}
-                </span><br>{{ 'blogs.blogContent38' | translate }}</p>
-
-            <p>• {{ 'blogs.blogContent39' | translate }}</p>
-            <p>• {{ 'blogs.blogContent40' | translate }} </p>
-            <p>• {{ 'blogs.blogContent41' | translate }}</p>
-            <p>• {{ 'blogs.blogContent42' | translate }}
-            </p>
-
-            <p>{{ 'blogs.blogContent43' | translate }}</p>
-
-            <p>{{ 'blogs.blogContent45' | translate }}</p>
-        </div>
-    </div>
+        <section class="hero">
+          <h2>Never miss another marketing opportunity again</h2>
+          <img src="assets/hero-image.jpg" alt="Marketing Opportunity">
+        </section>
+      
+        <section class="features">
+          <div class="feature-card" *ngFor="let feature of hero.websitebuilderfeatures">
+            <img [src]="feature.image" [alt]="feature.title">
+            <div class="feature-content">
+              <h3 [innerHTML]="feature.title"></h3>
+              <p [innerHTML]="feature.description"></p>
+            </div>
+          </div>
+        </section>
+      
+        <section class="marketing-overview">
+          <h2>Marketing Overview</h2>
+          <div class="overview-stats">
+            <div class="stat" *ngFor="let stat of hero.stats">
+              <h3>{{ stat.value }}</h3>
+              <p>{{ stat.label }}</p>
+            </div>
+          </div>
+        </section>
+      </div>
 
     <app-footer></app-footer>
 </main>

@@ -9,12 +9,12 @@ import { PostsComponent } from './posts/posts.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { CartComponent } from './cart/cart.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { ServiceComponent } from './service/service.component';
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: `/home`,
-    pathMatch: 'full'
+    component: HomeComponent
   },
   {
     path: `home`,
@@ -31,6 +31,10 @@ const routes: Routes = [
   {
     path: `about`,
     component: AboutComponent
+  },
+  {
+    path: `service/:name`,
+    component: ServiceComponent
   },
   {
     path: `gallery`,

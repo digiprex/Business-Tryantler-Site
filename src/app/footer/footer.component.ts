@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Renderer2 } from '@angular/core';
+import { AppService } from '../app.service';
+import { Meta, Title } from '@angular/platform-browser';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-footer',
@@ -29,4 +32,13 @@ export class FooterComponent {
       "external": true
     },
   ];
+  public website: any;
+    public sliderImage: any;
+    public templatetype: any;
+    public hero: any;
+  
+    constructor(private appService: AppService, private formBuilder: FormBuilder, private renderer: Renderer2, private titleService: Title, private metaService: Meta) {
+      this.templatetype = this.appService.getContentData('templatetype');
+      this.hero = this.appService.getContentData('hero');
+    }
 }

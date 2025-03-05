@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppService } from '../app.service';
 
 @Component({
   selector: 'app-navbar',
@@ -6,45 +7,48 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  public close: any;
-  public links = [
-    {
-      "name": "Home",
-      "url": "/home"
-    },
-    {
-      "name": "About Us",
-      "url": "/about"
-    },
-    {
-      "name": "Menu",
-      "url": "/menu"
-    },
-    {
-      "name": "Gallery",
-      "url": "/gallery"
-    },
-    {
-      "name": "Blogs",
-      "url": "/blogs"
-    },
-    {
-      "name": "Contact Us",
-      "url": "/contact"
-    },
-    {
-      "name": "Order Online",
-      "url": "https://order.online/store/mont-everest-masala-montr%C3%A9al-872851/?delivery=true&hideModal=true&redirected=true",
-      "external": true
-    }
-  ]
-  constructor() { }
+  public template;
+  public logo;
+  public halal;
+  public css;
+  public links;
+  public tagLine;
+  public close: boolean = true;
+  public isDropdownOpen: boolean = false;
+  public selectedNavCategory: any;
+  public selectedCategory: any;
+
+  constructor(private appService: AppService) {
+    this.template = this.appService.getContentData('template');
+    this.logo = this.appService.getContentData('logo');
+    this.halal = this.appService.getContentData('halal');
+    this.css = this.appService.getContentData('css');
+    this.tagLine = this.appService.getContentData('tagLine');
+    this.links = this.appService.getContentData('navbar').links;
+  }
 
   ngOnInit(): void {
   }
 
-  change(comm: any) {
-    this.close = comm;
+  change() {
+    this.close = !this.close;
+  }
+
+  toggleButton(text: any) {
+      this.isDropdownOpen = true;
+      this.selectedCategory = text;
+  }
+
+  toggleSubCategories(option: any) {
+    if (this.selectedNavCategory?.name === option.name) {
+      this.selectedNavCategory = null;
+    } else {
+      this.selectedNavCategory = option;
+    }
+  }
+
+  closeDropdown() {
+    this.isDropdownOpen = false;
   }
 }
 

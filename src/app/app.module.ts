@@ -19,6 +19,7 @@ import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ServiceComponent } from './service/service.component';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient);
@@ -38,7 +39,8 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     GalleryComponent,
     CartComponent,
     CheckoutComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,

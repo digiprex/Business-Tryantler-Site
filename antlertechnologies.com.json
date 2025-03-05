@@ -1,0 +1,1346 @@
+{
+    "logo": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0a1ed984-0c31-460e-9333-d2b365f0b66d_Antler%20Logo%201.png",
+    "brandName": "Business-Tryantler-Site",
+    "address": "8-2, 326/5, Rd Number 3, Green Valley, Banjara Hills, Hyderabad, Telangana 500034",
+    "contact": "(650)-629-3578",
+    "email": "restaurants@tryantler.com",
+    "type": "template1039",
+    "social": {
+        "twitter": "",
+        "insta": "https://www.instagram.com/mont_everest_masala/",
+        "fb": "https://www.facebook.com/mont.everestmontreal",
+        "onlinelink": "https://www.order.store/store/mont-everest-masala-plateau/85nkwyr8Tm-5OM7wdUQ_cg",
+        "yelp": "https://www.yelp.ca/biz/mont-everest-masala-montr%C3%A9al",
+        "routerLink1": "/post/chilliPaneer",
+        "routerLink2": "/post/chickenBiryani",
+        "routerLink3": "/post/fishCurry",
+        "routerLink4": "/post/dalMakhani",
+        "routerLink5": "/post/tomatoSoup",
+        "google": "https://www.google.com/search?q=Mont+Everest+Masala+%7C+Indian+Restaurant+%7C+Curries+%7C+Butter+Chicken+%7C+Tandoori+%7C+Montreal&stick=H4sIAAAAAAAA_xWMsQoCMRAFK8XPWAT7iKdeLD0sLK4RC9t3yYrBI4FNIlfc1_ilrt0wDLNarjdmapyz2wHPwTLvwfZkprZpDx7OM4zho919F48-xUKXDwvnQj0yRtBM1-gDIt1Uogo0mamrIoGz0rmWwkLdK7g3RxV3RJ-SBMX_TxjjD02JOomEAAAA&hl=en-GB&mat=CeWKO8XImeNeElcB8pgkaM-C2nVHvANx-mwPfT-FsIxqnAspztyQYe3GTFb8of3zfYST3yCG0cJxuMvXTyXWoaqnDKj3bF_ly7CadDAOBEleynXk326bQQuVhU9TUwTPiBA&authuser=0"
+    },
+    "css": {
+        "exp": "padding:0px;",
+        "price": "width:75px;",
+        "divCss": "paading:10px;",
+        "logoSize": "width: 100px; height: 100px; object-fit: contain;",
+        "headerCss": "margin-right: 25px;"
+    },
+    "popup": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f5de9217-a176-4c96-ba3e-5752841cf92a.webp",
+    "navbar": {
+        "links": [
+            {
+                "text": "Home",
+                "link": "/home",
+                "type": "internal"
+            },
+            {
+                "text": "How It Works",
+                "link": "/about",
+                "type": "internal"
+            },
+            {
+                "text": "Services",
+                "link": "",
+                "type": "external",
+                "options": [
+                    {
+                        "name": "Website Builder",
+                        "type": "internal",
+                        "link": "/service/websiteBuilder"
+                    },
+                    {
+                        "name": "Automated Marketing",
+                        "type": "internal",
+                        "link": "/service/automatedmarketing"
+                    },
+                    {
+                        "name": "Zero Commission Delivery",
+                        "type": "internal",
+                        "link": "/service/zerocommissiondelivery"
+                    },
+                    {
+                        "name": "Online Ordering",
+                        "type": "internal",
+                        "link": "/service/onlineordering"
+                    },
+                    {
+                        "name": "Loyalty Program",
+                        "type": "internal",
+                        "link": "/service/loyaltyprogram"
+                    }
+                ]
+            },
+            {
+                "text": "Contact Us",
+                "link": "/contact",
+                "type": "internal"
+            }
+        ]
+    },
+    "hero": {
+        "quickLinks": [
+            {
+                "name": "Home",
+                "url": "/home"
+            },
+            {
+                "name": "How It Works",
+                "url": "/about"
+            },
+            {
+                "name": "Contact Us",
+                "url": "/contact"
+            }
+        ],
+        "serviceslinks": [
+            {
+                "name": "AI-Powered Website Builder",
+                "url": "/service/websiteBuilder"
+            },
+            {
+                "name": "Online Review Management",
+                "url": "/service/onlineordering"
+            },
+            {
+                "name": "Automated Marketing Campaigns",
+                "url": "/service/automatedmarketing"
+            },
+            {
+                "name": "Customer Loyalty Program",
+                "url": "/service/loyaltyprogram"
+            }
+        ],
+        "contacts": [
+            {
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7aef5689-4145-4267-bbcc-24e54b650544_Group%20172439%20%281%29.png",
+                "text": "8-2-293/8, Banjara Hills, Hyderabad, Telangana 500034"
+            },
+            {
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ea79245a-7357-4f7a-83d7-5b804dd77505_Group%20%284%29.png",
+                "text": "(360)-632-3579"
+            },
+            {
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/389e8776-690e-47a9-bd59-2217437235d9_Group%20172438%20%281%29.png",
+                "text": "restaurant@byantler.com"
+            }
+        ],
+        "socialLinks": [
+            {
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6c0945ac-146f-485d-bea2-ba698ae96dcf_Group%20172435.png",
+                "url": "#"
+            },
+            {
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/89427d45-dea1-4db5-902e-f9740e8b5905_Group%20172434%20%283%29.png",
+                "url": "#"
+            },
+            {
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f3140f05-aced-4ac0-93fb-628d0a7bc94e_Group%20172432.png",
+                "url": "#"
+            },
+            {
+                "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1891943b-42e6-4982-951a-2aa572b5aa8b_Group%20172433.png",
+                "url": "#"
+            }
+        ],
+        "services": [
+            {
+                "showDesc": false,
+                "title": "Weddings",
+                "label": "Weddings",
+                "link": "/service/Weddings",
+                "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/bb07fefd-8a1b-45bd-b7cf-313f8215e4c2_South%20Asian%20Wedding%20Highlights.jpg"
+            },
+            {
+                "showDesc": false,
+                "title": "Family Services",
+                "label": "family-services",
+                "link": "/service/family-services",
+                "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1971c276-8089-493d-9cf0-476878028542_Kids%E2%80%99%20Events.jpg"
+            },
+            {
+                "showDesc": false,
+                "title": "Package Options",
+                "label": "package-options",
+                "link": "/service/package-options",
+                "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cc31a8eb-f89b-4651-b140-4bffa551d95f_Events.jpg"
+            }
+        ],
+        "hosts": {
+            "websiteBuilder": [
+                {
+                    "title": "Restaurant websites built for sales first, style second.",
+                    "description": "Antler builds your website to drive sales. Our proven design grows Google traffic, outranks delivery apps, and beats your competition.",
+                    "topimage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8e93ea53-6643-4e8f-a9d0-de724e37cc6d_2149595838.png",
+                    "name": "Website Builder",
+                    "sections": [
+                        {
+                            "title": "A proven design that drives more traffic",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/60b7cfde-a018-4c48-8835-45c1ffd731d5_Frame%2017%20%281%29.png",
+                            "text": "AI-optimized sites boost SEO and Google traffic.",
+                            "bgColor": "#ffffff"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0328851c-2816-4790-b7e7-d8557c9fc52d_Frame%2017.png",
+                            "text": "Great ordering experience that increases sales.",
+                            "bgColor": "#E2EBFF"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c702be71-2669-4a09-9586-85c3a01e9c07_Group%20172101.png",
+                            "text": "Add your branding,then go live ASAP.",
+                            "bgColor": "#060026"
+                        }
+                    ],
+                    "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/228a80cd-beea-48bf-a581-4626a881f99e_Frame%2028.png",
+                    "secondSection": [
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "We build websites that Google loves",
+                                "para": "AI-optimized websites that boost your SEO and gets you more Google traffic."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Drive online sales like the big brands",
+                                "para": "Easy online ordering right on your website. Grow your traffic, grow your orders."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Your new website in days, not months ",
+                                "para": "Add your brand to our proven design, then you're ready to grow online.."
+                            }
+                        }
+                    ],
+                    "secondsectionheading": "We build websites that Google loves",
+                    "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fa102399-8d55-4146-9517-852493265142_2542.jpg",
+                    "callButton": "Call us to get a Quote",
+                    "callLink": ""
+                }
+            ],
+            "automatedmarketing": [
+                {
+                    "title": "Never miss another marketing opportunity again.",
+                    "description": "Grow sales with automated campaigns. Drive repeat orders with proven email and text marketing on autopilot.",
+                    "topimage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ff144622-746c-49a6-968d-88ef17492b6d_71894.png",
+                    "name": "Automated Marketing",
+                    "sections": [
+                        {
+                            "title": "Reach more customers with automated marketing",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d02ef3dc-8d19-40de-b098-9370cdae45b5_Group%20172101%20%285%29.png",
+                            "text": "Boost sales with smart, automated campaigns.",
+                            "bgColor": "#ffffff"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/4ae673bd-c1cb-453d-a103-88f5cd833013_Group%20172101%20%286%29.png",
+                            "text": "Your orders, your data. Grow your list, grow your sales.",
+                            "bgColor": "#E2EBFF"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/52de29bf-504b-447f-824f-acf18aaa2dcb_Group%20172101%20%287%29.png",
+                            "text": "Write emails instantly with AI.",
+                            "bgColor": "#ffffff"
+                        }
+                    ],
+                    "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fc0b75a5-0d73-4815-9c86-a76ab47f6298_Group%20172686%20%283%29.png",
+                    "secondSection": [
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Grow your sales with proven campaigns",
+                                "para": "Run automated marketing that grow orders."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Grow your customer list",
+                                "para": "Every direct order grows your list, giving you more data to drive more sales."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Write faster with AI",
+                                "para": "Sending your own campaign? Use our AI assistant to write email blasts in seconds."
+                            }
+                        }
+                    ],
+                    "secondsectionheading": "Money-making marketing, powered by customer data",
+                    "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fa102399-8d55-4146-9517-852493265142_2542.jpg",
+                    "callButton": "Call us to get a Quote",
+                    "callLink": ""
+                }
+            ],
+            "zerocommissiondelivery": [
+                {
+                    "title": "Profitable delivery and a great guest experience.",
+                    "description": "Get food to your customers on time, by top-rated drivers, at a fair price.",
+                    "topimage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2f7f3c47-d408-40ce-82dd-fe624b4c92ff_9100.png",
+                    "name": "Zero Commission Delivery",
+                    "sections": [
+                        {
+                            "title": "Third-party delivery,no third-party commissions",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b42665b-f0ec-49a6-8e5c-f4fb922b13d0_Group%20172101%20%282%29.png",
+                            "text": "Top third-party drivers deliver for you. One flat fee. No markup from us.",
+                            "bgColor": "#ffffff"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/323977e7-0e46-4f5d-af06-6fd5c04ca3a6_Frame%2017%20%283%29.png",
+                            "text": "Use your in-house delivery drivers, third-party, or both.",
+                            "bgColor": "#060026"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/948a41be-538d-47a4-81f8-ceb7bd23c7fd_Frame%2017%20%284%29.png",
+                            "text": "Call your customers if needed. We'll pay for any delivery problems.",
+                            "bgColor": "#ffffff"
+                        }
+                    ],
+                    "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f45be672-32ea-4c27-a6e6-f0069b2ac090_Group%20172686.png",
+                    "secondSection": [
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Pay a flat rate for delivery",
+                                "para": "Use third-party drivers at fixed rates. Guests pay delivery on small orders, you chip in for larger ones."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Get the best drivers, commission free",
+                                "para": "We only use drivers rated 4.5 stars or higher to deliver your food."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "A direct line to your customers",
+                                "para": "You can call customers directly. We'll cover refunds for any delivery issues."
+                            }
+                        }
+                    ],
+                    "secondsectionheading": "Delivery that's better for you and your guests",
+                    "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fa102399-8d55-4146-9517-852493265142_2542.jpg",
+                    "callButton": "Call us to get a Quote",
+                    "callLink": ""
+                }
+            ],
+            "onlineordering": [
+                {
+                    "title": "Make your online ordering as good as the big brands.",
+                    "description": "Antler’s online ordering feels familiar and easy, so more customers order directly from you.",
+                    "topimage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/875e3934-98cd-46c8-89a1-479a5cd25053_2149950116.png",
+                    "name": "Online Ordering",
+                    "sections": [
+                        {
+                            "title": "Online ordering that helps you grow",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/059ac15b-311c-459d-9c28-7d7a7f8cbd04_Frame%2017%20%285%29.png",
+                            "text": "Feels like the apps your customers use daily.",
+                            "bgColor": "#ffffff"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/47c8a103-7206-4ef5-8eba-c79cd45a8324_Frame%2017%20%287%29.png",
+                            "text": "Own your data. Grow your list. Connect with your customers.",
+                            "bgColor": "#e8ebfc"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6e25da98-414b-4218-9db6-cc8a59423918_Frame%2017%20%286%29.png",
+                            "text": "Direct orders: cheaper for guests, better for you.",
+                            "bgColor": "#ffffff"
+                        }
+                    ],
+                    "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/73363673-0118-4473-99be-6bd0f58828f2_Group%20172686%20%281%29.png",
+                    "secondSection": [
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Easy for your guests to make the switch",
+                                "para": "Both your website and mobile online ordering are easy for customers, since they feel familiar."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Start owning your customer data",
+                                "para": "Direct orders mean you get customer data, not third parties. Build more connections with your guests."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Cheaper and better for your guests",
+                                "para": "Ordering directly means that guests avoid third-party fees, so they'll go to you first."
+                            }
+                        }
+                    ],
+                    "secondsectionheading": "Online ordering that feels like the delivery apps",
+                    "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fa102399-8d55-4146-9517-852493265142_2542.jpg",
+                    "callButton": "Call us to get a Quote",
+                    "callLink": ""
+                }
+            ],
+            "loyaltyprogram": [
+                {
+                    "title": "Offer a rewards program like the national chains.",
+                    "description": "Build customer loyalty with a rewards program. Keep guests coming back for more, just like the big brands.",
+                    "topimage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/33b1b27c-0c6c-4f5b-9596-276d4618a43d_2147826802.png",
+                    "name": "Loyalty Program",
+                    "sections": [
+                        {
+                            "title": "Boost your repeat orders",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fd3c7ad8-28ec-4f64-869b-4da76241f576_Frame%2017%20%288%29.png",
+                            "text": "Encourage casual customers to come back.",
+                            "bgColor": "#ffffff"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fa662b36-edf1-4fad-a4f1-0ce39109001c_Group%20172101%20%283%29.png",
+                            "text": "Quick rewards signup gets more loyal fans.",
+                            "bgColor": "#060026"
+                        },
+                        {
+                            "title": "",
+                            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/df35205a-94a1-4bfc-b902-60e915b7c9fa_Group%20172101%20%284%29.png",
+                            "text": "Simple setup. Easy for customers to earn. Easy to track.",
+                            "bgColor": "#ffffff"
+                        }
+                    ],
+                    "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/eaed2779-aee0-4cda-bde6-3c374f37ebbd_Group%20172686%20%282%29.png",
+                    "secondSection": [
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Use rewards to get more fans",
+                                "para": "Loyalty points turn occasional buyers into loyal regulars."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "No-brainer guest signup",
+                                "para": "Customers can join your rewards program in seconds."
+                            }
+                        },
+                        {
+                            "icon": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e71c721c-a38f-4586-a361-273f484e06a8_Group%20172791.png",
+                            "content": {
+                                "heading": "Easy for guests to track rewards",
+                                "para": "Guests can track points easily, especially on your app."
+                            }
+                        }
+                    ],
+                    "secondsectionheading": "Run a loyalty program your regulars will love",
+                    "bgImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fa102399-8d55-4146-9517-852493265142_2542.jpg",
+                    "callButton": "Call us to get a Quote",
+                    "callLink": ""
+                }
+            ]
+        },
+        "speacialfeature": [
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e90c2368-d88e-427e-a582-29d227d49419_Item%20%282%29.png",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5e827682-1a0f-44c2-868d-83b9de59eb1b_Item.png",
+            "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d19fcd40-a47a-4ba7-bb12-5550c1ab001e_Item%20%281%29.png"
+        ],
+        "features": [
+            {
+                "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"5\" y=\"2\" width=\"14\" height=\"20\" rx=\"2\" ry=\"2\"></rect><line x1=\"12\" y1=\"18\" x2=\"12\" y2=\"18\"></line></svg>",
+                "title": "Flat delivery fees",
+                "description": "Pay a simple flat fee for delivery."
+            },
+            {
+                "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2\"></path></svg>",
+                "title": "Fair driver shares",
+                "description": "We only send you top-rated Dashers and Uber Eats drivers."
+            },
+            {
+                "iconSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"></path></svg>",
+                "title": "Curated wide deliveries",
+                "description": "Use third-party drivers, your own drivers, or both."
+            }
+        ],
+        "beliefs": [
+            {
+                "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6d883039-5efc-4c02-b1a0-9f31e6ed729d_2150384836%20%281%29.png",
+                "title": "Your sales growth is the most important thing",
+                "description": "We've built every part of our product with one goal: driving sales for you. For example, our website system prioritizes what works to drive sales, not fancy customization."
+            },
+            {
+                "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1d305702-9797-41d6-a9b4-7f14914d258e_17957%20%281%29.png",
+                "title": "We have to earn your trust every month",
+                "description": "Restaurants are hard enough. You don’t need another tech vendor tying you up in a long-term contract. We only do month-to-month."
+            },
+            {
+                "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/64268f90-32be-46b9-b37f-f71e09dff3bb_4877%20%281%29.png",
+                "title": "Restaurants should own their customer relationships",
+                "description": "Many tech companies separate restaurants from their customers. With Antler, you own your customer data. If you ever decide to leave Antler, you get to bring your customers with you."
+            }
+        ],
+        "steps": [
+            {
+                "title": "Show up at the top of Google",
+                "description": "Get listed in Google search results easily.",
+                "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/58784437-78f6-47a3-bd39-061392b12a04_Frame%2026.png"
+            },
+            {
+                "title": "Grow sales with online ordering",
+                "description": "Offer a seamless ordering experience for your customers.",
+                "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c1f1ae20-9dad-44ac-b527-ad6d3ac8ea5b_Frame%2025.png"
+            },
+            {
+                "title": "Drive re-orders with your mobile app",
+                "description": "Encourage repeat customers with rewards.",
+                "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d88124bc-5a4f-4baa-a614-56cdf5c32230_Frame%2024.png"
+            },
+            {
+                "title": "Engage guests with auto-marketing",
+                "description": "Send automated offers and reminders.",
+                "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/0fbe6260-9193-40f1-8a02-1cce81015667_Frame%2023.png"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is AutoTech?",
+                "answer": "AutoTech is an automation technology for businesses."
+            },
+            {
+                "question": "How does it work?",
+                "answer": "AutoTech integrates with your existing tools to improve efficiency."
+            },
+            {
+                "question": "Can I connect directly to the platform?",
+                "answer": "Yes, through our API integration."
+            },
+            {
+                "question": "Is there a mobile app?",
+                "answer": "Yes, AutoTech offers a mobile app for easier access."
+            }
+        ],
+        "testimonials": [
+            {
+                "quote": "This platform has completely transformed how our team works together.",
+                "author": "Alex Thompson",
+                "role": "Product Manager",
+                "company": "TechCorp",
+                "avatar": "https://ui-avatars.com/api/?name=AT"
+            },
+            {
+                "quote": "The best investment we've made for our workflow optimization.",
+                "author": "Sarah Chen",
+                "role": "CEO",
+                "company": "Innovate Inc",
+                "avatar": "https://ui-avatars.com/api/?name=SC"
+            },
+            {
+                "quote": "Incredible features and outstanding customer support.",
+                "author": "Michael Brown",
+                "role": "Tech Lead",
+                "company": "DevStudio",
+                "avatar": "https://ui-avatars.com/api/?name=MB"
+            }
+        ],
+        "guides": [
+            {
+                "image": "assets/images/guide1.png",
+                "title": "Getting Started with Collaboration",
+                "description": "Learn how to set up your first project and invite team members",
+                "link": "/guides/collaboration"
+            },
+            {
+                "image": "assets/images/guide2.png",
+                "title": "Advanced Workflow Techniques",
+                "description": "Discover powerful features to optimize your team's productivity",
+                "link": "/guides/workflow"
+            },
+            {
+                "image": "assets/images/guide3.png",
+                "title": "Integration with Your Tools",
+                "description": "Connect with your existing tools for a seamless experience",
+                "link": "/guides/integration"
+            }
+        ],
+        "aboutHeading": "Our Story",
+        "backgroundImg": "../../assets/pics/darkTheme/background-img.jpg",
+        "heading": "Discover Royalty",
+        "subheading": "",
+        "cta": [
+            {
+                "text": "",
+                "link": ""
+            }
+        ],
+        "gulabJamun": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9eeccbe-d22d-49ae-bccb-50fde7a069e9_Gulab%20jamum.png",
+        "garlicNaan": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/50ca5460-97bb-43e8-ae27-6fd3d7a5f718_Garlic%20Naan%20.png",
+        "tandooriChicken": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/83a4b583-4469-40a9-a208-1aec0d94eb0d_Whole%20Tandoori%20Chicken.jpg",
+        "masalaTea": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28b55e04-f3c7-4138-848b-bcc3d23d5ba5_masala%20tea.jpg",
+        "beefCurry": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/42e862df-6710-4502-ba2b-6ed1eefe6506_Beef%20Curry%20.png",
+        "cucumberSalad": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/81e0f191-23f2-4a03-a606-1f1db30cbeed_Cucumber%20Salad%20.jpg"
+    },
+    "story": {
+        "heading": "New Indian restaurant in town serving delicious mouth watering unique flavours of India Vegan, vegetarian and non-vegetarian options available. Customizable according to customer requests or allergies. Take-out and dine-in.",
+        "subheading": "LOVE FOR FOOD",
+        "content": "The food at Flavors of India Dining is the kind that many of us at the restaurant grew up enjoying. The clay-oven-cooked meats and vegetables from our tandoor, the exotic seasonings in our masala and vindaloo dishes, the fragrant soups and biryanis. Everything, right down to the chai and kulfi that may finish your meal are served with the same care and attention as a home-cooked meal.",
+        "contactUs": "Contact Us",
+        "contactUsPara": "We are open for dine-in, takeout, and delivery and look forward to serving you.",
+        "latest": "THE LATEST",
+        "blogImg1": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/dd52a744-a3e0-445c-923a-6ba11b57d1a3.webp",
+        "blogHeading1": "Chilli Paneer",
+        "blogPara1": "Chilli Paneer, a beloved dish tantalizing taste buds with its fiery kick and succulent texture, has become a staple in the culinary landscape, particularly in the Indian subcontinent. This delectable creation finds its roots in the fascinating fusion of Indian and Chinese cuisines, showcasing the culinary diversity that arises when two rich culinary traditions come together.",
+        "blogImg2": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/11ea4753-85a1-4f45-b065-e12785c0c6db.webp",
+        "blogHeading2": "Chicken Biryani",
+        "blogPara2": "Chicken Biryani, a fragrant and flavorful dish that has captured the hearts and taste buds of millions, boasts a rich and diverse heritage that spans centuries. While the exact origin of this beloved dish is a subject of debate among culinary historians, one thing is certain: chicken biryani has evolved into a cultural icon cherished across the Indian subcontinent and beyond.",
+        "blogImg3": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6465ac93-5ac4-4ca4-849e-5435c1567496.webp",
+        "blogHeading3": "Fish Curry",
+        "blogPara3": "Embarking on a culinary journey doesn&#39;t always require an extensive list of ingredients and hours spent in the kitchen. Sometimes, all it takes is a handful of key components to create a dish that delights the taste buds and transports you to distant lands.",
+        "blogImg4": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/25e0e481-5497-4450-bc38-6e8a7b3a9aa3.webp",
+        "blogHeading4": "Daal Makhani",
+        "blogPara4": "Dal Makhani, a quintessential North Indian dish, has won hearts around the globe with its rich, creamy texture and aromatic blend of spices. While the traditional recipe boasts a symphony of flavors, the judicious use of flavor enhancers can take this dish to new culinary heights.",
+        "blogImg5": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/48e2102a-4f47-4e67-bd60-996a54483501.webp",
+        "blogHeading5": "Tomato Soup",
+        "blogPara5": "Few culinary experiences rival the comforting aroma of a simmering pot of tomato soup on a chilly day. Yet, the success of this classic dish often hinges on a crucial decision: the choice of tomatoes. With a plethora of varieties available, selecting the right tomatoes can elevate your soup from ordinary to extraordinary."
+    },
+    "reservation": {
+        "heading": "Visit us for A Royal Dining Experience",
+        "subheading": "AMBIANCE TO COMPLEMENT THE ROYAL MEAL",
+        "content": ""
+    },
+    "openingTimes": [
+        {
+            "Monday": "12:00PM - 10:00PM",
+            "Tuesday": "Closed",
+            "Wednesday": "12:00PM - 10:00PM",
+            "Thursday": "12:00PM - 10:00PM",
+            "Friday": "12:00PM - 10:00PM",
+            "Saturday": "12:00PM - 10:00PM",
+            "Sunday": "12:00PM - 10:00PM"
+        }
+    ],
+    "slider": [
+        {
+            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ffe3e61e-c949-4f37-949b-90328fd00467.webp",
+            "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ffe3e61e-c949-4f37-949b-90328fd00467.webp"
+        },
+        {
+            "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9ba24da-c5ae-440a-9a69-1f843ee0a9c0.webp",
+            "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9ba24da-c5ae-440a-9a69-1f843ee0a9c0.webp"
+        }
+    ],
+    "menu": [
+        {
+            "backgroundImg": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9c824b92-fc33-4056-b12c-086c5088660c.jpg",
+            "heading": "",
+            "subheading": "",
+            "menu": [
+                {
+                    "superCategory": [
+                        {
+                            "category": [
+                                {
+                                    "categoryName": "Appetizers",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Veggie Samosa (2 pcs) Vegetarian",
+                                            "itemDescription": "Cumin infused potatoes & veggie medley wrapped in organic white flour pastry,...",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Vegetarian Pakora",
+                                            "itemDescription": "Marinated veggies coated in a chickpea batter and deep fried",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Onion Bhajia (4 pcs)",
+                                            "itemDescription": "Seasoned onions, coated in chickpea flour and deep fried.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Meat Samosa (2 pcs)",
+                                            "itemDescription": "Spiced minced chicken and spinach wrapped in organic white flour pastry,...",
+                                            "itemPrice": "5.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Cauliflower Pakora (6 pcs)",
+                                            "itemDescription": "Marinated cauliflower florets coated in a chickpea batter and deep fri...",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Pakora (6 pcs)",
+                                            "itemDescription": "Marinated chicken breast coated in chickpea batter and deep fried.",
+                                            "itemPrice": "5.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shrimp Pakora (6 pcs)",
+                                            "itemDescription": "Marinated shrimp coated in chickpea batter and deep fried.",
+                                            "itemPrice": "7.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Fish Pakora (6 pcs)",
+                                            "itemDescription": "Marinated salmon coated in chickpea batter and deep fried.",
+                                            "itemPrice": "7.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Soups & salads",
+                                    "side": "right",
+                                    "items": [
+                                        {
+                                            "itemName": "Khira Raita",
+                                            "itemDescription": "Sliced cucumbers topped with homemade yoghurt.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Milligatawny Soup",
+                                            "itemDescription": "Yellow lentil soup with veggies & minced chicken tikka in a blend of s...",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Mushroom Soup",
+                                            "itemDescription": "Shitake & Creamini mushrooms in a tomato base.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Kachumber Salad",
+                                            "itemDescription": "Diced onion, cucumber, carrot, tomatoes, mixed pepper, cilantro, pepper...",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Tomato Soup",
+                                            "itemDescription": "Blended tomatoes with a touch of cream.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Tandoori",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "House Mixed Grill",
+                                            "itemDescription": "Tandoori chicken, reshmi kebab, thangidi chicken, tandoori prawn & fish,...",
+                                            "itemPrice": "21.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Tandoori Cauliflower",
+                                            "itemDescription": "Florets of cauliflower marinated in homemade yoghurt, ginger, garlic, spices,...",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Full Tandoori Chicken - 8 Pcs",
+                                            "itemDescription": "Chicken marinated in yoghurt, ginger, garlic, spices, and lime juice and...",
+                                            "itemPrice": "19.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Tandoori Fish (3 pcs)",
+                                            "itemDescription": "Boneless salmon marinated in homemade yoghurt, ginger, garlic, spices,...",
+                                            "itemPrice": "19.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Thangidi Kabab (4 pcs)",
+                                            "itemDescription": "Chicken legs marinated in homemade yoghurt, ginger, garlic, spices, and...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Paneer Tikka (6 pcs)",
+                                            "itemDescription": "Cubes of Indian cottage cheese marinated in homemade yoghurt, ginger, garlic,...",
+                                            "itemPrice": "15.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Half Tandoori Chicken - 4 Pc",
+                                            "itemPrice": "16.99",
+                                            "iustomization": []
+                                        },
+                                        {
+                                            "itemName": "Tandoori Prawn - 8 Pcs",
+                                            "itemPrice": "18.99",
+                                            "iustomization": []
+                                        },
+                                        {
+                                            "itemName": "Reshmi Kabab - 4 Pcs",
+                                            "itemPrice": "15.99",
+                                            "iustomization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Meat Delights",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Butter Chicken",
+                                            "itemDescription": "Chicken marinated and baked in the tandoor, then simmered in a creamy tomato...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Mughlai",
+                                            "itemDescription": "Cooked with a blend of spices in a creamy cashew gravy.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Tikka Masala",
+                                            "itemDescription": "Chicken marinated in homemade yogurt, ginger, garlic, spices, lime juice,...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Karahi",
+                                            "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger, in...",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shahi Chicken",
+                                            "itemDescription": "Cooked in a creamy coconut milk and onion gravy with spices.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Vindaloo",
+                                            "itemDescription": "Chicken & potato simmered in a sour, tangy & spicy tamarind sauce.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Curry",
+                                            "itemDescription": "Traditional tomato and onion gravy with house's garam masala blend.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Saag",
+                                            "itemDescription": "Puréed spinach, onion, tomato, and a touch of cream with fresh ginger....",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Madras",
+                                            "itemDescription": "Cooked in a gravy of coconut milk, yoghurt and a blend of south Indian...",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chilli Chicken",
+                                            "itemDescription": "Seasoned cubes of chicken deep fried and added to garlic, soya sauce &...",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Mughlai",
+                                            "itemDescription": "Cooked with a blend of spices in a creamy cashew gravy.",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Madras",
+                                            "itemDescription": "Cooked in a gravy of coconut milk, yoghurt and a blend of south Indian...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Curry",
+                                            "itemDescription": "Traditional tomato and onion gravy with house's garam masala blend.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Shahi",
+                                            "itemDescription": "Cooked in a creamy coconut milk and onion gravy with spices.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Karahi",
+                                            "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger, in...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Vindaloo",
+                                            "itemDescription": "Lamb & potato simmered in a sour, tangy & spicy tamarind sauce.",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Shahi",
+                                            "itemDescription": "Cooked in a creamy coconut milk and onion gravy with spices.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Karahi",
+                                            "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger, in...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Madras",
+                                            "itemDescription": "Cooked in a gravy of coconut milk, yoghurt and a blend of south Indian...",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Mughlai",
+                                            "itemDescription": "Cooked with a blend of spices in a creamy cashew gravy.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Saag",
+                                            "itemDescription": "Puréed spinach, onion, tomato, and a touch of cream with fresh ginger....",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Vindaloo",
+                                            "itemDescription": "Beef & potato simmered in a sour, tangy & spicy tamarind sauce.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Curry",
+                                            "itemDescription": "Traditional tomato and onion gravy with house's garam masala blend.",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Saag",
+                                            "itemDescription": "Puréed spinach, onion, tomato, and a touch of cream with fresh ginger....",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Seafood Delights",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Shrimp Shahi",
+                                            "itemDescription": "Tiger prawns cooked in a creamy coconut milk and onion gravy with spic...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Fish Curry",
+                                            "itemDescription": "Boneless salmon fish cooked in a tamarind sauce, with tomato, yoghurt,...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shrimp Karahi",
+                                            "itemDescription": "Cooked with mixed peppers, onion, tomato, cilantro and fresh ginger, in...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shrimp Vindaloo",
+                                            "itemDescription": "Tiger prawns and seasoned potato, simmered in a sour and tangy tamarind...",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Vegetarian Dishes",
+                                    "side": "right",
+                                    "items": [
+                                        {
+                                            "itemName": "Daal Curry",
+                                            "itemDescription": "Split lentils cooked with tomato seasoned with spices and herbs in Hyderabadi...",
+                                            "itemPrice": "11.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Daal with Spinach",
+                                            "itemDescription": "Split lentils and spinach cooked with tomato seasoned with spices & herbs...",
+                                            "itemPrice": "11.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Aloo Gobi",
+                                            "itemDescription": "Cauliflower and potatoes cooked in onion, tomato and aromatic spices.",
+                                            "itemPrice": "12.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Baingan Bhartha Vegetarian",
+                                            "itemDescription": "Whole eggplant baked in tandoor, mashed and sauteed with onions, tomatoes,...",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Channa Masala",
+                                            "itemDescription": "Chickpea cooked in tomato, spices and herbs to perfection.",
+                                            "itemPrice": "12.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Navrathan Curry",
+                                            "itemDescription": "9 vegetables: potato, baby corn, paneer, peas, beans, carrots, broccoli,...",
+                                            "itemPrice": "12.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Spinach Fry",
+                                            "itemDescription": "Spinach sauteed with garlic, onions, spices & lemon.",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chilli Paneer",
+                                            "itemDescription": "Deep-fried paneer added to garlic, soy sauce & child gravy with diced pepper,...",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Palak Paneer",
+                                            "itemDescription": "Cottage cheese, spinach and tomato with a touch of cream.",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Bhindi Masala",
+                                            "itemDescription": "Crisp okra prepared with fresh onions, tomatoes, spices and herbs.",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Mutter Paneer",
+                                            "itemDescription": "Cottage cheese and green peas cooked in cream & tomato sauce.",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Navrathan Moghlai",
+                                            "itemDescription": "9 vegetables: potato, baby corn, paneer, peas, beans, carrots, broccoli,...",
+                                            "itemPrice": "13.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Shahi Paneer",
+                                            "itemDescription": "Indian cottage cheese cooked in a creamy onion and coconut milk gravy and...",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Paneer Tikka Masala",
+                                            "itemDescription": "Cooked in the tandoor, then add to a masala sauce with a mixture of peppers,...",
+                                            "itemPrice": "15.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Daal Makhani",
+                                            "itemDescription": "Whole black lentils cooked with tomato, cream and herbs in North Indian...",
+                                            "itemPrice": "14.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Paneer Makhani",
+                                            "itemDescription": "Cubes of cottage cheese simmered in a tomato and cream sauce.",
+                                            "itemPrice": "15.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Gobi Manchurian",
+                                            "itemDescription": "Made with cauliflower, corn flour, soy sauce, chili, ginger sauce, and...",
+                                            "itemPrice": "10.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Mango Cauliflower",
+                                            "itemDescription": "Made with cauliflower, mango, soy sauce, sweet pepper, corn flour, and...",
+                                            "itemPrice": "10.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Rice Dishes",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Plain Rice",
+                                            "itemDescription": "Superior quality basmati rice cooked to perfection.",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Pulao Rice",
+                                            "itemDescription": "Basmati rice cooked with onion and Indian spices.",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Jeera Rice",
+                                            "itemDescription": "Basmati rice tampered with cumin seeds.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Garlic Rice",
+                                            "itemDescription": "Basmati rice mixed with fried garlic, cilantro and herbs.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Saffron Rice",
+                                            "itemDescription": "Saffron-infused rice with a touch of cream.",
+                                            "itemPrice": "5.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Peas Pulao",
+                                            "itemDescription": "Flavoured basmati rice cooked with green peas, sautéed onion, mixed pepper ...",
+                                            "itemPrice": "5.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Vegetable Biryani",
+                                            "itemDescription": "Stewed vegetables mixed with basmati rice, herbs, cashews and spices.",
+                                            "itemPrice": "12.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chicken Biryani",
+                                            "itemDescription": "Chicken meat cooked with herbs, basmati rice, nuts and spices.",
+                                            "itemPrice": "16.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Beef Biryani",
+                                            "itemDescription": "Beef meat cooked with herbs, basmati rice, nuts and spices.",
+                                            "itemPrice": "17.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Lamb Biryani",
+                                            "itemDescription": "Lamb meat cooked with herbs, basmati rice, nuts and spices.",
+                                            "itemPrice": "18.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Breads",
+                                    "side": "right",
+                                    "items": [
+                                        {
+                                            "itemName": "Plain Naan",
+                                            "itemDescription": "Traditional bread baked in tandoor.",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Garlic Naan",
+                                            "itemDescription": "Tandoori bread topped with garlic, and cilantro.",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Cheese Naan",
+                                            "itemDescription": "Tandoori bread stuffed with mozzarella & cheddar cheese and spices. Great...",
+                                            "itemPrice": "6.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Chilli Garlic Naan",
+                                            "itemDescription": "Tandoori bread is topped with garlic, red chilli flakes, and cilantro.",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Plain Roti",
+                                            "itemDescription": "Whole wheat bread baked in tandoor.",
+                                            "itemPrice": "3.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Aloo Kulcha",
+                                            "itemDescription": "Bread stuffed with potatoes and spices.",
+                                            "itemPrice": "6.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Bhatura",
+                                            "itemDescription": "All-Purpose organic flour bread deep fried (bhatura).",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Poori",
+                                            "itemDescription": "Whole wheat bread deep fried (poori).",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Butter Naan",
+                                            "itemDescription": "Traditional bread baked in tandoor with butter (butter naan).",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Butter Roti",
+                                            "itemDescription": "Whole wheat bread baked in tandoor.",
+                                            "itemPrice": "3.50",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Beverages",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Sweet Lassi",
+                                            "itemDescription": "Sweet- cool yoghurt drink infused with cardamom & sugar.",
+                                            "itemPrice": "4.75",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Salt Lassi",
+                                            "itemDescription": "Salt- cool yoghurt drink, infused with cumin & chat masala.",
+                                            "itemPrice": "4.75",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Masala Tea",
+                                            "itemDescription": "Indian milk tea infused with ginger and cardamom.",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Apple Juice",
+                                            "itemPrice": "3.99",
+                                            "iustomization": []
+                                        },
+                                        {
+                                            "itemName": "Bag Tea",
+                                            "itemPrice": "3.99",
+                                            "iustomization": []
+                                        },
+                                        {
+                                            "itemName": "Mango Lassi",
+                                            "itemDescription": "Cool yoghurt drink blended with mango.",
+                                            "itemPrice": "4.75",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Mango Milk Shake",
+                                            "itemDescription": "",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Orange Juice",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Soft Drinks",
+                                            "itemDescription": "",
+                                            "itemPrice": "2.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Fiji Water",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Juice",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.99",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Side orders",
+                                    "side": "right",
+                                    "items": [
+                                        {
+                                            "itemName": "Mint Sauce",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.00",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Homemade Yogurt",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.00",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Tamarind Sauce",
+                                            "itemDescription": "",
+                                            "itemPrice": "3.00",
+                                            "customization": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "categoryName": "Desserts",
+                                    "side": "left",
+                                    "items": [
+                                        {
+                                            "itemName": "Ras Malai",
+                                            "itemDescription": "",
+                                            "itemPrice": "4.99",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Rice Pudding",
+                                            "itemDescription": "",
+                                            "itemPrice": "2.50",
+                                            "customization": []
+                                        },
+                                        {
+                                            "itemName": "Gulab Jamun",
+                                            "itemDescription": "",
+                                            "itemPrice": "4.50",
+                                            "customization": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
