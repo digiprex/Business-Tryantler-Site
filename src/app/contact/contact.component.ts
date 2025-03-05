@@ -32,8 +32,7 @@ export class ContactComponent {
   }
 
   setTitleAndMetaTags(): void {
-    this.titleService.setTitle('Contact Best Restaurant In Montreal | Mont Everest Masala | Reach Us Today');
-    this.metaService.updateTag({ name: 'description', content: 'Mont Everest Masala in Montreal serves the best South Indian cuisine. Explore a menu brimming with veg and non-veg delights. Satisfaction awaits!' });
+   
   }
 
   submitForm() {

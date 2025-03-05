@@ -24,8 +24,7 @@ export class AboutComponent {
   }
 
   setTitleAndMetaTags(): void {
-    this.titleService.setTitle('Top Best French Restaurant In Montreal | Mont Everest Masala');
-    this.metaService.updateTag({ name: 'description', content: 'Experience the flavors of South Indian food at Mont Everest Masala, Montreals top spot for authentic dishes. Indulge in diverse veg and non-veg options today!' });
+    
   }
   toggleFaq(index: number) {
     this.hero.faqs[index].open = !this.hero.faqs[index].open;
