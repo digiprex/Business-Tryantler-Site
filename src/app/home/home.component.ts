@@ -31,10 +31,7 @@ export class HomeComponent {
   }
 
   setTitleAndMetaTags(): void {
-    this.titleService.setTitle('Best South Indian Food In Montreal | Mont Everest Masala');
-    this.metaService.updateTag({ name: 'description', content: 'Savor the finest South Indian cuisine at Mont Everest Masala in Montreal. Discover a delectable blend of veg and non-veg specialties. Taste excellence!' });
-    this.metaService.updateTag({ name: 'google-site-verification', content: 'nmoJPTBnvKusf3rNSRJlpKwJwj55XPHWmaK1FkxyoPI' });
-  }
+    }
 
   homesSliderImage = [
     {
