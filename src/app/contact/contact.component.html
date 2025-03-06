@@ -1,38 +1,21 @@
 <main>
     <app-navbar></app-navbar>
-    
-
-    <section class="form">
-        <div class="leftside">
-        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e9268a78-9291-4bf3-97c5-0478d7a512d2_5464016_2846516%201.png"/>
-    </div>
-        <div class="rightside">
-        <form [formGroup]="contactDetails">
+    <section>
+        <div class="image">
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/79436da6-7d48-4452-8727-43df985e6638_5464016_2846516%201.png"
+                alt="">
+        </div>
+        <div class="form">
             <h2>Contact Us</h2>
-            <div>
-                <input name="firstName" placeholder="Enter your first name" required formControlName="firstName" />
-                <input name="lastName" placeholder="Enter your last name" formControlName="lastName" />
-            </div>
-            <div>
-                <input name="email" placeholder="email" required formControlName="email" />
-                <input name="phone" placeholder="phone" required formControlName="phone" />
-            </div>
-            <textarea type="text" class="control-form" name="message" placeholder="Message"
-                formControlName="message"></textarea>
-            <button (click)="submitForm()" *ngIf="!success" type="submit">Submit</button>
-            <button *ngIf="success" class="submit">Submited</button>
-        </form>
-    </div>
+            <form action="" [formGroup]="userDetailsForm">
+                <input type="text" placeholder="Name" required formControlName="Name">
+                <input type="email" placeholder="Email" required formControlName="Email">
+                <input type="text" placeholder="Business Name" required formControlName="BusinessName">
+                <textarea placeholder="Message" cols="5" rows="5" formControlName="Message"></textarea>
+                <button (click)="submitForm()" [disabled]="!userDetailsForm.valid" *ngIf="!success">Submit</button>
+                <button class="success" *ngIf="success">Submitted!</button>
+            </form>
+        </div>
     </section>
-
-    <div class="newsletter-section">
-        <h2>Stay Connected with Our Newsletter</h2>
-        <p>Get the latest updates and insights delivered straight to your inbox.</p>
-        <form class="newsletter-form" [formGroup]="userDetails1">
-            <input type="email" name="email" formControlName="email" placeholder="Email Address" required />
-            <button (click)="formSubmit()" type="submit">Subscription</button>
-          </form>
-      </div>
-
     <app-footer></app-footer>
 </main>

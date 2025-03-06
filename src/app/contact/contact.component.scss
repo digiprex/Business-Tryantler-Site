@@ -1,138 +1,97 @@
 main {
+    font-family: "Poppins", sans-serif;
 
-    padding: 15rem 5rem 5rem 1rem;
-
-    section.form {
-        padding: 5rem 10rem;
+    section {
         display: flex;
+        justify-content: space-between;
+        gap: 40px;
+        align-items: center;
+        padding: 5rem 10rem;
 
-        .rightside {
-            width: 50%;
-
-            h2 {
-                text-align: center;
-                color: #000;
-                font-size: 40px;
-                font-weight: 400;
-                font-family: "Fraunces", serif;
-                text-transform: uppercase;
-                margin: 0;
-            }
-
-            form {
-                display: grid;
-                font-family: "Fraunces", serif;
-                margin: auto;
-                gap: 10px;
-
-                div {
-                    display: flex;
-                    justify-content: center;
-                    gap: 10px;
-
-                    input:nth-child(1) {
-                        width: 50%;
-                    }
-
-                    input:nth-child(2) {
-                        width: 50%;
-                    }
-                }
-
-                input,
-                textarea {
-                    border-radius: 8px;
-                    border: 1px solid lightgray;
-                    width: 100%;
-                    padding: 10px;
-                }
-
-                button {
-                    border: 1px solid #005DFF;
-                    padding: 10px 20px;
-                    background: #005DFF;
-                    font-size: 14px;
-                    color: #fff;
-                    font-family: "Fraunces", serif;
-                    border-radius: 4px;
-                    width: fit-content;
-                    margin: auto;
-                }
-
-                button:disabled {
-                    background-color: transparent;
-                    border: 1px solid #005DFF;
-                    color: #005DFF;
-                }
-
-                .submit {
-                    background-color: #4bb543 !important;
-                }
-            }
-        }
-
-        .leftside {
+        .image {
             width: 50%;
 
             img {
                 width: 100%;
             }
         }
-    }
 
-    .newsletter-section {
-        background: #0d0d26;
-        color: #fff;
-        text-align: center;
-        padding: 40px;
+        .form {
+            width: 50%;
+            box-shadow: 0px 9px 19.8px 10px #0000000A;
+            background-color: #fff;
+            border-radius: 20px;
+            padding: 5rem;
+            display: grid;
+            gap: 40px;
 
-        p {
-            font-size: 1rem;
-            margin-bottom: 15px;
-            color: #000000;
-        }
-
-        form {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-
-            input {
-                padding: 10px;
-                width: 250px;
-                border-radius: 5px;
-                border: none;
-                color: #000000;
+            h2 {
+                color: #1e1e1e;
+                font-size: 30px;
+                font-weight: 600;
+                margin: 0;
+                text-align: center;
             }
 
-            button {
-                padding: 10px 15px;
-                background: #0066ff;
-                color: #fff;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
+            form {
+                display: grid;
+                gap: 20px;
+
+                input,
+                textarea {
+                    border: 1px solid #BABABA;
+                    padding: 10px;
+                    border-radius: 6px;
+                }
+
+                button {
+                    border-radius: 8px;
+                    background: #07F;
+                    padding: 15px 90px;
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 500;
+                    border: none;
+                    width: fit-content;
+                    margin: auto;
+
+                    &:enabled:hover {
+                        background: #fff;
+                        color: #07F;
+                    }
+
+                    &:disabled {
+                        background: #779fce;
+                    }
+                }
+
+                .success {
+                    background-color: #53a653;
+                }
             }
         }
     }
 }
 
-// Mobile
 @media only screen and (max-device-width: 480px) {
     main {
-        padding: 0px;
 
-        section.form {
-            padding: 10rem 2rem;
-            display: flex;
+        section {
+            padding: 5rem 2rem;
             flex-direction: column;
-            .leftside{
-                width:100%;
 
+            .image {
+                width: 100%;
             }
-            .rightside{
-                width:100%;
+
+            .form {
+                width: 100%;
+                padding: 2rem;
+
+                h2 {
+                    font-size: 30px;
+                }
             }
         }
     }

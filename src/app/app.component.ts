@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { AppService } from './app.service';
-import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +6,9 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public web: any;
+  title = 'Try Antler';
 
-  constructor(private appService: AppService, public translate: TranslateService) {
-    // translate.addLangs(['fr', 'en']);
-    // translate.setDefaultLang('en');
-    let browserLang: any;
-    browserLang = translate.getBrowserLang();
-    // translate.use('fr');
-
+  ngAfterViewChecked() {
+    window.scrollTo(0, 0);
   }
-  title = 'Antler-Technologies';
 }
