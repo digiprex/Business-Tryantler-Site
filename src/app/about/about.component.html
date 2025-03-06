@@ -1,56 +1,50 @@
+<app-navbar></app-navbar>
 <main>
-    <app-navbar></app-navbar>
-    <section class="hero-section">
-        <div class="container text-center">
-          <h2>You could be getting a LOT more online sales.</h2>
-          <p>Adopt smarter ordering solutions today.</p>
-          <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/418e828d-ec70-4176-8960-180a99080a0a_Group%20172755.png" alt="Hero Image" class="hero-image">
-        </div>
-      </section>
-      
-      <section class="steps-section">
-        <div class="container">
-          <div *ngFor="let step of hero.steps; let i = index" class="step">
-            <div class="step-number">{{ (i + 1) | number: '2.0' }}</div>
-            <div class="step-content">
-              <h3>{{ step.title }}</h3>
-              <p>{{ step.description }}</p>
-            </div>
-            <div class="step-image">
-              <img [src]="step.image" [alt]="step.title">
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <section class="faq-container">
-        <div class="title">
-          <h3>Frequently asked questions</h3>
-          <div></div>
-        </div>
-        <div class="faq-div">
-          <div class="faq" *ngFor="let faq of hero.faqs; let i = index">
-            <div class="faq-question" (click)="toggleFaq(i)">
-              {{ faq.question }}
-            </div>
-            <div class="faq-answer" [class.collapse]="!faq.open" [class.expand]="faq.open" (click)="toggleFaq(i)">
-              {{ faq.answer }}
-            </div>
-            <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/90d3e168-11f8-4c0f-994a-1c9a14f9aeab.png"
-              class="arrow-icon" [class.collapse]="faq.open" [class.expand]="!faq.open" (click)="toggleFaq(i)" />
-            <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/539ed68e-6dca-41d0-bdb6-0dd810e0435f.jpg"
-              class="arrow-icon" [class.collapse]="!faq.open" [class.expand]="faq.open" (click)="toggleFaq(i)" />
-          </div>
-        </div>
-      </section>
-
-      <div class="newsletter-section">
-        <h2>Stay Connected with Our Newsletter</h2>
-        <p>Get the latest updates and insights delivered straight to your inbox.</p>
-        <form class="newsletter-form" [formGroup]="userDetails1">
-          <input type="email" name="email" formControlName="email" placeholder="Email Address" required />
-          <button (click)="formSubmit()" type="submit">Subscription</button>
-        </form>
+  <section class="hero-section">
+    <div class="container-section">
+      <div>
+        <h1>You could be getting a LOT more online sales.</h1>
+        <p>Antler is the easiest way to rank higher on Google, get more online orders, and create the best experience
+          for your customers. See how we do it.</p>
       </div>
-    <app-footer></app-footer>
+      <img
+        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/418e828d-ec70-4176-8960-180a99080a0a_Group%20172755.png"
+        alt="Hero Image">
+    </div>
+  </section>
+
+  <section class="steps-section">
+    <div class="steps-wrapper">
+      <div class="dotted-line"></div>
+      <div *ngFor="let step of steps; let i = index" class="step">
+        <div class="inner-section">
+          <span class="step-number">0{{ i + 1 }}</span>
+          <div class="step-content">
+            <h3>{{ step.title }}</h3>
+            <p>{{ step.description }}</p>
+          </div>
+        </div>
+        <img [src]="step.image" [alt]="step.title">
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-container">
+    <h2>FAQ's</h2>
+    <div class="faq-div">
+      <div class="faq" *ngFor="let faq of faqs; let i = index">
+        <div class="faq-question" (click)="toggleFaq(i)">
+          {{ faq.question }}
+        </div>
+        <div class="faq-answer" [class.collapse]="!faq.open" [class.expand]="faq.open" (click)="toggleFaq(i)">
+          {{ faq.answer }}
+        </div>
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/90d3e168-11f8-4c0f-994a-1c9a14f9aeab.png"
+          class="arrow-icon" [class.collapse]="faq.open" [class.expand]="!faq.open" (click)="toggleFaq(i)" />
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/539ed68e-6dca-41d0-bdb6-0dd810e0435f.jpg"
+          class="arrow-icon" [class.collapse]="!faq.open" [class.expand]="faq.open" (click)="toggleFaq(i)" />
+      </div>
+    </div>
+  </section>
 </main>
+<app-footer></app-footer>
