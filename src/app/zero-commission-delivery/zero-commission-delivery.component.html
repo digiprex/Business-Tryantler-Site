@@ -1,0 +1,48 @@
+<app-navbar></app-navbar>
+<main>
+    <section class="hero-section">
+        <div class="container-section">
+            <div>
+                <h1>Profitable delivery and a great guest experience.</h1>
+                <p>Get food to your customers on time, by top-rated drivers, at a fair price.</p>
+            </div>
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2f7f3c47-d408-40ce-82dd-fe624b4c92ff_9100.png"
+                alt="Hero Image">
+        </div>
+    </section>
+
+    <div class="second-section">
+        <div class="left-image">
+            <img [src]="zerocommissiondelivery[0].image" alt="Service Image" />
+        </div>
+        <div class="right-content">
+            <h2>{{ zerocommissiondelivery[0].secondsectionheading }}</h2>
+            <div class="list" *ngFor="let item of zerocommissiondelivery[0].secondSection">
+                <div class="icon">
+                    <img [src]="item.icon" alt="Icon" />
+                </div>
+                <div class="content">
+                    <h4>{{ item.content.heading }}</h4>
+                    <p>{{ item.content.para }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <h3>Third-party delivery, no third-party commissions</h3>
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/445177d5-37ad-4d00-9adf-74854833751f_Group%20172794-min.png"
+            alt="">
+    </div>
+
+    <div class="services dark-blue">
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/c0c06388-5b5d-4f0e-bc65-cd7f2f162a5a_Group%20172795%20%281%29-min.png"
+            alt="">
+    </div>
+
+    <div class="services">
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/28fbf3f4-99fc-48f6-96b7-3b8dc5f4322b_Group%20172796%20%281%29-min.png"
+            alt="">
+    </div>
+</main>
+<app-footer></app-footer>

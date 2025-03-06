@@ -24,19 +24,19 @@ export class NavbarComponent implements OnInit {
       "options": [
         {
           "name": "Website Builder",
-          "link": "/service/websiteBuilder"
+          "link": "/website-builder"
         },
         {
           "name": "Automated Marketing",
-          "link": "/service/automatedmarketing"
+          "link": "/automation-marketing"
         },
         {
           "name": "Zero Commission Delivery",
-          "link": "/service/zerocommissiondelivery"
+          "link": "/zero-commission-delivery"
         },
         {
           "name": "Online Ordering",
-          "link": "/service/onlineordering"
+          "link": "/online-ordering"
         },
         {
           "name": "Loyalty Program",

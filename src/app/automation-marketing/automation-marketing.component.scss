@@ -1,0 +1,270 @@
+main {
+    font-family: "Poppins", sans-serif;
+
+    .hero-section {
+        background-image: url("https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3f7761a4-919b-4ab6-9518-1b5a0179ffa8_32505505_xiantiao1sucai.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 5rem 10rem;
+        height: auto;
+
+        .container-section {
+            display: grid;
+            gap: 20px;
+
+            div {
+                display: grid;
+                gap: 20px;
+                width: 70%;
+                margin: auto;
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 40px;
+                    color: #fff;
+                    margin: 0;
+                    text-align: center;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #B2B2B2;
+                    margin: auto;
+                    line-height: 30px;
+                    width: 80%;
+                    text-align: center;
+                }
+            }
+
+            img {
+                width: 65%;
+                margin: auto;
+            }
+        }
+    }
+
+    .second-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 5rem 10rem;
+        background: #E2EBFF;
+
+        .left-image {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .right-content {
+            width: 50%;
+            display: grid;
+            gap: 20px;
+
+            h2 {
+                font-weight: 600;
+                font-size: 40px;
+                color: #fff;
+                margin: 0;
+            }
+
+            .list {
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+
+                .icon {
+                    width: 10%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .content {
+                    width: 90%;
+                    display: grid;
+                    gap: 10px;
+
+                    h4 {
+                        color: #fff;
+                        font-size: 20px;
+                        font-weight: 600;
+                        margin: 0;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #fff;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .services {
+        display: grid;
+        gap: 40px;
+        padding: 5rem 10rem;
+
+        h3 {
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+            margin: 0;
+        }
+
+        img {
+            width: 70%;
+            margin: auto;
+        }
+    }
+
+    .blue {
+        background-color: #E2EBFF;
+    }
+
+    .dark-blue {
+        background-color: #060026;
+    }
+
+    .marketing-overview {
+        background-image: url('https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/36c68c4d-1a4a-4399-b272-0741d7d86e75_e1[…]f1-9fcd-45f0-b90a-70629febe975_Frame%2037%20%281%29.png');
+        padding: 5rem 10rem 5rem 0rem;
+        color: #ffffff;
+        display: grid;
+        gap: 40px;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+            margin: 0;
+        }
+
+        .overview-content {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+
+            .overview-image {
+                width: 50%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .overview-stats {
+                width: 50%;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+
+                .stat-card {
+                    background: #ffffff;
+                    border-radius: 10px;
+                    padding: 20px;
+                    text-align: start;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+                    h3 {
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: #1E1E1E;
+                        margin: 0;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: #1E1E1E;
+                        margin: 5px 0 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    main {
+        .hero-section {
+            padding: 5rem 2rem;
+
+            .container-section {
+                div {
+                    width: 100%;
+
+                    h1 {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        width: 100%;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .second-section {
+            flex-direction: column;
+            padding: 5rem 2rem;
+
+            .left-image {
+                width: 100%;
+            }
+
+            .right-content {
+                width: 100%;
+
+                h2 {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .services {
+            padding: 5rem 2rem;
+
+            h3 {
+                font-size: 30px;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .marketing-overview {
+            padding: 5rem 2rem;
+
+            h2 {
+                font-size: 30px;
+            }
+
+            .overview-content {
+                flex-direction: column;
+
+                .overview-image {
+                    width: 100%;
+                }
+
+                .overview-stats {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -4,6 +4,10 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
+import { WebsiteBuilderComponent } from './website-builder/website-builder.component';
+import { AutomationMarketingComponent } from './automation-marketing/automation-marketing.component';
+import { ZeroCommissionDeliveryComponent } from './zero-commission-delivery/zero-commission-delivery.component';
+import { OnlineOrderingComponent } from './online-ordering/online-ordering.component';
 
 const routes: Routes = [
   {
@@ -21,6 +25,22 @@ const routes: Routes = [
   {
     path: `about`,
     component: AboutComponent
+  },
+  {
+    path: `website-builder`,
+    component: WebsiteBuilderComponent
+  },
+  {
+    path: `automation-marketing`,
+    component: AutomationMarketingComponent
+  },
+  {
+    path: `zero-commission-delivery`,
+    component: ZeroCommissionDeliveryComponent
+  },
+  {
+    path: `online-ordering`,
+    component: OnlineOrderingComponent
   },
   {
     path: `service/:name`,

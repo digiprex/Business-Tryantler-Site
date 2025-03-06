@@ -1,0 +1,50 @@
+<app-navbar></app-navbar>
+<main>
+    <section class="hero-section">
+        <div class="container-section">
+            <div>
+                <h1>Restaurant websites built for sales first, style second.</h1>
+                <p>Antler builds your website to drive sales. Our proven design grows Google traffic, outranks delivery
+                    apps, and
+                    beats your competition.</p>
+            </div>
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ec105143-d3b0-4d8e-8fe1-cac1e78d8c39_Group%20172755%20%281%29.png"
+                alt="Hero Image">
+        </div>
+    </section>
+
+    <div class="second-section">
+        <div class="left-image">
+            <img [src]="websiteBuilderData[0].image" alt="Service Image" />
+        </div>
+        <div class="right-content">
+            <h2>{{ websiteBuilderData[0].secondsectionheading }}</h2>
+            <div class="list" *ngFor="let item of websiteBuilderData[0].secondSection">
+                <div class="icon">
+                    <img [src]="item.icon" alt="Icon" />
+                </div>
+                <div class="content">
+                    <h4>{{ item.content.heading }}</h4>
+                    <p>{{ item.content.para }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <h3>A proven design that drives more traffic</h3>
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/941d7020-49b8-47c0-86cd-efabccad22fb_image%20%281%29-min.png"
+            alt="">
+    </div>
+
+    <div class="services blue">
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/85762742-072c-48f1-b625-454e2a8d7255_Group%20172795-min.png"
+            alt="">
+    </div>
+
+    <div class="services dark-blue">
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/523c26d0-ac7b-4a72-a5a3-fbb59650acf1_Group%20172796-min.png"
+            alt="">
+    </div>
+</main>
+<app-footer></app-footer>

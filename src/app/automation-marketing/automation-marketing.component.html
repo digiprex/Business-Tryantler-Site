@@ -1,0 +1,85 @@
+<app-navbar></app-navbar>
+<main>
+    <section class="hero-section">
+        <div class="container-section">
+            <div>
+                <h1>Never miss another marketing opportunity again.</h1>
+                <p>Grow sales with automated campaigns. Drive repeat orders with proven email and text marketing on
+                    autopilot.</p>
+            </div>
+            <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ff144622-746c-49a6-968d-88ef17492b6d_71894.png"
+                alt="Hero Image">
+        </div>
+    </section>
+
+    <div class="second-section dark-blue">
+        <div class="left-image">
+            <img [src]="automatedmarketing[0].image" alt="Service Image" />
+        </div>
+        <div class="right-content">
+            <h2>{{ automatedmarketing[0].secondsectionheading }}</h2>
+            <div class="list" *ngFor="let item of automatedmarketing[0].secondSection">
+                <div class="icon">
+                    <img [src]="item.icon" alt="Icon" />
+                </div>
+                <div class="content">
+                    <h4>{{ item.content.heading }}</h4>
+                    <p>{{ item.content.para }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services">
+        <h3>Reach more customers with automated marketing</h3>
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/946ef280-f5d7-4521-b15d-d8ff55a64227_Group%20172794-min.png"
+            alt="">
+    </div>
+
+    <div class="services blue">
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/211911dd-96a6-4512-a76e-8a84205cd1d8_Group%20172795%20%281%29-min.png"
+            alt="">
+    </div>
+
+    <div class="services">
+        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3007f445-6092-4de2-8c05-f3aa3b5a1c9b_Group%20172796%20%281%29-min.png"
+            alt="">
+    </div>
+
+    <section class="marketing-overview dark-blue">
+        <h2>Marketing Overview</h2>
+        <div class="overview-content">
+            <div class="overview-image">
+                <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/3da98fc9-6403-4d64-bc04-2a2b68ec7077_Group%20172770.png"
+                    alt="Marketing Image" />
+            </div>
+            <div class="overview-stats">
+                <div class="stat-card">
+                    <h3>$2000</h3>
+                    <p>Sales</p>
+                </div>
+                <div class="stat-card">
+                    <h3>82</h3>
+                    <p>Orders</p>
+                </div>
+                <div class="stat-card">
+                    <h3>82%</h3>
+                    <p>Click rate</p>
+                </div>
+                <div class="stat-card">
+                    <h3>1,203</h3>
+                    <p>Sent</p>
+                </div>
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p>Delivered</p>
+                </div>
+                <div class="stat-card">
+                    <h3>75%</h3>
+                    <p>Opened</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<app-footer></app-footer>
