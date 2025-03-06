@@ -1,44 +1,68 @@
-import { Component, Renderer2 } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AppService } from '../app.service';
-import { Meta, Title } from '@angular/platform-browser';
-import { FormBuilder } from '@angular/forms';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
-export class FooterComponent {
+export class FooterComponent implements OnInit {
   public links = [
     {
       "name": "Home",
       "url": "/home"
     },
     {
-      "name": "About Us",
+      "name": "How it Works",
       "url": "/about"
     },
     {
-      "name": "Menu",
-      "url": "/menu"
-    },
-    {
-      "name": "Gallery",
-      "url": "/gallery"
-    },
-    {
       "name": "Contact Us",
-      "url": "/contact",
-      "external": true
-    },
-  ];
-  public website: any;
-    public sliderImage: any;
-    public templatetype: any;
-    public hero: any;
-  
-    constructor(private appService: AppService, private formBuilder: FormBuilder, private renderer: Renderer2, private titleService: Title, private metaService: Meta) {
-      this.templatetype = this.appService.getContentData('templatetype');
-      this.hero = this.appService.getContentData('hero');
+      "url": "/contact"
     }
+  ];
+  public services = [
+    {
+      "name": "Website Builder",
+      "link": "/service/websiteBuilder"
+    },
+    {
+      "name": "Automated Marketing",
+      "link": "/service/automatedmarketing"
+    },
+    {
+      "name": "Zero Commission Delivery",
+      "link": "/service/zerocommissiondelivery"
+    },
+    {
+      "name": "Online Ordering",
+      "link": "/service/onlineordering"
+    },
+    {
+      "name": "Loyalty Program",
+      "link": "/service/loyaltyprogram"
+    }
+  ];
+  public success: boolean = false;
+
+  footerDetails = new FormGroup({
+    email: new FormControl("")
+  });
+
+  constructor(private appservice: AppService) { }
+
+  ngOnInit(): void {
+  }
+
+
+  submitForm() {
+    let body = {
+      email: this.footerDetails.value.email
+    }
+    this.appservice.newsletterSubmission(body).subscribe(result => {
+      this.success = true;
+      this.footerDetails.reset();
+    })
+  }
 }

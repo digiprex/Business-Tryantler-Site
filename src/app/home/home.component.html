@@ -1,62 +1,104 @@
 <main>
-    <app-navbar></app-navbar>
+  <app-navbar></app-navbar>
 
-    <section class="home-banner">
-        <div class="first-section">
-            <h1>Making online growth easy for Restaurants</h1>
-            <p>Thousands of restaurant owners use Antler Technologies to succeed online. Grow your sales with a great online experience – just like Domino's and Chipotle.</p>
-            <button routerLink="/about">Get Started</button>
-        </div>
-        <div class="second-section" style="background-image: url('https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5620bd9b-efdd-42b6-b0f1-8a499e6618b9_Ellipse%2015.png');">
-            <img class="icon" src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/379d8fdb-07ea-4976-b48e-4e7fe329b29d_24152256_5685%206.png"/>
-            <img class="bigimage" src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5931c786-5634-445c-bb78-cc0ba3adda9f_Frame%2021.png" />
-            <img class="secondicon" src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b47b9504-093d-476f-84ac-e7f30a908713_24152256_5685%205.png" />
-        </div>
-    </section>
+  <section class="home-banner">
+    <div class="title">
+      <h1>Making online growth easy for Restaurants</h1>
+      <p>Thousands of restaurant owners use Antler Technologies to succeed online. Grow your sales with a great online
+        experience – just like Domino's and Chipotle.</p>
+      <button routerLink="/about">Get Started</button>
+    </div>
+    <div class="content">
+      <img class="floater2"
+        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/379d8fdb-07ea-4976-b48e-4e7fe329b29d_24152256_5685%206.png" />
+      <img class="bigimage"
+        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5931c786-5634-445c-bb78-cc0ba3adda9f_Frame%2021.png" />
+      <img class="floater1"
+        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b47b9504-093d-476f-84ac-e7f30a908713_24152256_5685%205.png" />
+    </div>
+  </section>
 
-    <section class="about">
-      <div class="aboutbox">
-        <div class="content">
-            <h2>Restaurant websites built for sales first, style second.</h2>
-            <p>Antler builds your website to drive sales. Our proven design grows Google traffic, outranks delivery apps, and beats your competition.</p>
-        <button routerLink="/about">Get Started</button>
-        </div>
-        <div class="image">
-            <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b91be106-40dd-4dbc-b5ef-97c6de77e39c_Group%20172502.png" />
-        </div>
-      </div>
-    </section>
-
-    <section class="seafood-banner">
+  <section class="about">
+    <div class="aboutbox">
       <div class="content">
         <h2>Restaurant websites built for sales first, style second.</h2>
-        <p>Antler builds your website to drive sales. Our proven design grows Google traffic, outranks delivery apps, and beats your competition.</p>
+        <p>Antler builds your website to drive sales. Our proven design grows Google traffic, outranks delivery apps,
+          and beats your competition.</p>
+        <button routerLink="/about">Get Started</button>
+      </div>
+      <div class="image">
+        <img
+          src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5c33359a-cadc-464d-ad25-3543da996409_Frame%2018-min.png" />
+      </div>
     </div>
-        <div class="image-div">
-            <img *ngFor="let i of hero.speacialfeature" src="{{i}}" />
-        </div>
-    </section>
+  </section>
 
-    <section class="easy-sale">
-        <div class="first-section">
-            <h1>Growing sales is easy when you use Antler</h1>
-           <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/55f9e213-2364-4947-8f58-e9d4ef7f4017_Frame%2020%20%282%29.png" />
-        </div>
-        <div class="second-section">
-            <img class="imagesize" src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cfbf12e2-ac8e-47a6-a983-d257a63eec40_Background.png"/>
-            <img class="imagesize" src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96bd4c2b-fe2f-400b-939e-21ab1f33eb5d_Container.png" />
-        </div>
-    </section>
+  <section class="seafood-banner">
+    <div class="title">
+      <h2>How restaurants grow using Antler</h2>
+      <p>Antler gives you the same tools that major national brands use to
+        drive sales. We learn what works for them, then give it to local
+        restaurant owners.</p>
+    </div>
+    <div class="image">
+      <img *ngFor="let i of speacialfeature" src="{{i}}" />
+    </div>
+  </section>
 
-    <!-- <div class="delivery-section">
-       <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cff20c5b-6c19-4cb9-8a5d-0a2d60592684_Screenshot%202025-03-05%20232221.png" />
-      </div> -->
-      <div class="mainbelief">
-        <div class="box-container">
-      <div class="beliefs-section">
+  <section class="easy-sale">
+    <h2>Growing sales is easy when you use Antler</h2>
+
+    <div class="wide-image">
+      <img
+        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/55f9e213-2364-4947-8f58-e9d4ef7f4017_Frame%2020%20%282%29.png" />
+    </div>
+    <div class="second-section">
+      <img class="imagesize"
+        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cfbf12e2-ac8e-47a6-a983-d257a63eec40_Background.png" />
+      <img class="imagesize"
+        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/96bd4c2b-fe2f-400b-939e-21ab1f33eb5d_Container.png" />
+    </div>
+  </section>
+
+  <section class="delivery">
+    <div class="content">
+      <h2>Delivery without the unfair commissions</h2>
+      <div class="details">
+        <div>
+          <img
+            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8bce0748-2a6c-42d9-a807-d779540d6ed2_Group%20172791.png"
+            alt="">
+          <p><b>Flat delivery fees.</b> Pay a simple flat</p>
+        </div>
+
+        <div>
+          <img
+            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e2413a6e-6332-42ee-9059-ea57fe25186c_Group%20172802.png"
+            alt="">
+          <p><b>4.5+ star drivers.</b> We only send you top-rated DoorDash and Uber Eats drivers.</p>
+        </div>
+
+        <div>
+          <img
+            src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a4141012-04f9-4742-aaaa-32aee5d29416_Group%20172803.png"
+            alt="">
+          <p><b>Control who delivers.</b> Use third-party drivers, your own drivers, or both.</p>
+        </div>
+      </div>
+    </div>
+    <div class="image">
+      <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/436def2e-08b8-4863-b871-982b57b446d9_Background.png"
+        alt="">
+    </div>
+  </section>
+
+  <section class="belief">
+    <div class="box-container">
+      <div class="content">
         <h2>3 beliefs that guide our company</h2>
+
         <div class="beliefs">
-          <div *ngFor="let belief of hero.beliefs" class="belief">
+          <div *ngFor="let belief of beliefs" class="belief">
             <img [src]="belief.image" alt="Belief Image">
             <div class="belief-content">
               <h4>{{ belief.title }}</h4>
@@ -65,20 +107,12 @@
           </div>
         </div>
       </div>
-      <div class="imagediv">
-        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f67e5938-1703-4cba-9d91-dbdbb3b7b409_Group%20172754.png" />
+      <div class="image">
+        <img
+          src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f67e5938-1703-4cba-9d91-dbdbb3b7b409_Group%20172754.png" />
       </div>
     </div>
-  </div>
-      
-      <div class="newsletter-section">
-        <h2>Stay Connected with Our Newsletter</h2>
-        <p>Get the latest updates and insights delivered straight to your inbox.</p>
-        <form class="newsletter-form" [formGroup]="userDetails1">
-          <input type="email" name="email" formControlName="email" placeholder="Email Address" required />
-          <button (click)="formSubmit()" type="submit">Subscription</button>
-        </form>
-      </div>
-      
-    <app-footer></app-footer>
+  </section>
+
+  <app-footer></app-footer>
 </main>

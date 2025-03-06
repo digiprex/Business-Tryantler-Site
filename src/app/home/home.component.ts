@@ -1,143 +1,42 @@
-import { Component, Renderer2 } from '@angular/core';
-import { NgImageSliderModule } from 'ng-image-slider';
+import { Component } from '@angular/core';
 import { AppService } from '../app.service';
-import { Router } from '@angular/router';
-import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { DomSanitizer } from '@angular/platform-browser';
-import { Title, Meta } from '@angular/platform-browser';
+import { FormControl, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent {
-  public website: any;
-  public sliderImage: any;
-  public templatetype: any;
-  public hero: any;
-  public success = false;
-  userDetails1 = new FormGroup({
-    email: new FormControl("")
-  });
 
-  constructor(private appService: AppService, private sanitizer: DomSanitizer, private router: Router, private formBuilder: FormBuilder, private renderer: Renderer2, private titleService: Title, private metaService: Meta) {
-    this.templatetype = this.appService.getContentData('templatetype');
-    this.hero = this.appService.getContentData('hero');
+export class HomeComponent {
+
+  public speacialfeature = [
+    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/e90c2368-d88e-427e-a582-29d227d49419_Item%20%282%29.png",
+    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/5e827682-1a0f-44c2-868d-83b9de59eb1b_Item.png",
+    "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d19fcd40-a47a-4ba7-bb12-5550c1ab001e_Item%20%281%29.png"
+  ];
+
+  public beliefs = [
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6d883039-5efc-4c02-b1a0-9f31e6ed729d_2150384836%20%281%29.png",
+      "title": "Your sales growth is the most important thing",
+      "description": "We've built every part of our product with one goal: driving sales for you. For example, our website system prioritizes what works to drive sales, not fancy customization."
+    },
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1d305702-9797-41d6-a9b4-7f14914d258e_17957%20%281%29.png",
+      "title": "We have to earn your trust every month",
+      "description": "Restaurants are hard enough. You don’t need another tech vendor tying you up in a long-term contract. We only do month-to-month."
+    },
+    {
+      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/64268f90-32be-46b9-b37f-f71e09dff3bb_4877%20%281%29.png",
+      "title": "Restaurants should own their customer relationships",
+      "description": "Many tech companies separate restaurants from their customers. With Antler, you own your customer data. If you ever decide to leave Antler, you get to bring your customers with you."
+    }
+  ];
+
+  constructor() {
   }
 
   ngOnInit(): void {
-    this.setTitleAndMetaTags();
-  }
-
-  setTitleAndMetaTags(): void {
-    }
-
-  homesSliderImage = [
-    {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/478d96cb-6a39-4b99-a8a5-8ca0e7202b22_2%20%281%29-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/478d96cb-6a39-4b99-a8a5-8ca0e7202b22_2%20%281%29-min.jpg",
-      "title": "Mont Everest Masala"
-    },
-    {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2892d88e-ba6e-4c6e-90ea-804d3a5cb74c_5-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2892d88e-ba6e-4c6e-90ea-804d3a5cb74c_5-min.jpg",
-      "title": "Mont Everest Masala"
-    },
-    {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f44cf1f7-a28f-4e34-a907-75e4daa796ca_3%20%281%29-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/f44cf1f7-a28f-4e34-a907-75e4daa796ca_3%20%281%29-min.jpg",
-      "title": "Mont Everest Masala"
-    },
-    {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/50ea943d-5ca8-4b6d-bc98-b4a5d38ca542_4%20%281%29-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/50ea943d-5ca8-4b6d-bc98-b4a5d38ca542_4%20%281%29-min.jpg",
-      "title": "Mont Everest Masala"
-    },
-    {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/000a57f3-494f-4c43-8223-8fb6c0af63d6_798d6035-8eab-4eaa-b398-7d0d24e559fe-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/000a57f3-494f-4c43-8223-8fb6c0af63d6_798d6035-8eab-4eaa-b398-7d0d24e559fe-min.jpg",
-      "title": "Mont Everest Masala"
-    },
-    {
-      "image": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1f015e93-b52e-4d04-a85d-ca6212defeb7_1%20%281%29-min.jpg",
-      "thumbImage": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1f015e93-b52e-4d04-a85d-ca6212defeb7_1%20%281%29-min.jpg",
-      "title": "Mont Everest Masala"
-    }
-  ];
-
-  services = [
-    {
-      "img": "../../assets/new_images/social-management-home.svg",
-      "title": "Social Media Management",
-      "cta": "/services"
-    },
-    {
-      "img": "../../assets/new_images/seo-home.svg",
-      "title": "Search Engine Optimization",
-      "cta": "/services"
-    },
-    {
-      "img": "../../assets/new_images/web-design-home.svg",
-      "title": "Web Design + Development",
-      "cta": "/services"
-    },
-    {
-      "img": "../../assets/new_images/sms-home.svg",
-      "title": "SMS and Email Marketing",
-      "cta": "/services"
-    },
-    {
-      "img": "../../assets/new_images/reputation-home.svg",
-      "title": "Reputation Management",
-      "cta": "/services"
-    },
-    {
-      "img": "../../assets/new_images/analytics-home.svg",
-      "title": "Real Time Analytical Insights & Automated Reports",
-      "cta": "/services"
-    }
-  ];
-
-  galleryImages: string[] = [
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8b75ad7d-d689-468f-b8f9-1293f486461d_g1-min.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8298b8e6-51fb-4caf-9d2e-7849ec9970b3_g2-min.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/fec10328-001e-499c-8425-de843aa34b6c_g3-min.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/8624cae1-e426-4740-be47-298dca4543d8_g4-min.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/ed268b16-63bc-44fe-816f-411812e5e1b5_g5-min.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b9b5411b-498a-42b8-a031-d3f2b2a6dbf0_g6-min.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/03dd14b2-e3ce-4cc5-a9d9-a18720479f16_g7-min.jpg',
-    'https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/567fe314-3358-47d6-866b-9c5d860ddb08_g8-min.jpg'
-  ];
-
-  dishes = [
-    {
-      "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9e883c95-3303-4a18-8471-20ef470fde46_naan.jpg",
-      "title": "Garlic Naan",
-      "price": "CA$4.50"
-    },
-    {
-      "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/6c6839b1-55e1-48b5-bc54-8653aa87b619_shake.jpg",
-      "title": "Mango Milk Shake",
-      "price": "CA$4.99"
-    },
-    {
-      "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/7b1dd4f8-7b65-4143-96b2-8bdbbbaa6b58_chicjen.jpg",
-      "title": "Fish Curry",
-      "price": "CA$20.99"
-    },
-    {
-      "img": "https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/60a4b55f-0191-49b2-a412-5c344fb036ac_booti.jpg",
-      "title": "LAMB VINDALOO",
-      "price": "CA$20.99"
-    }
-  ]
-  formSubmit() {
-    let body = {
-      email: this.userDetails1.value.email
-    }
-    this.appService.newsletterSubmission(body).subscribe(result => {
-      this.success = true;
-    })
   }
 }

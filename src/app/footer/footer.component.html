@@ -1,41 +1,86 @@
-<footer class="footer">
-    <div class="footer-container">
-  
-      <div class="footer-column">
-        <img src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/09328a77-6bf4-4607-92fe-f28801fabf6f_Group%201%20%281%29.png" alt="Antler Technologies" class="logo" />
-        <h3>Quick Links</h3>
-        <ul>
-          <li *ngFor="let link of hero.quickLinks">
-            <a [href]="link.url">{{ link.name }}</a>
-          </li>
-        </ul>
-      </div>
-  
-      <div class="footer-column">
-        <h3>Services</h3>
-        <ul>
-          <li *ngFor="let service of hero.serviceslinks">
-            <a [href]="service.url">{{ service.name }}</a>
-          </li>
-        </ul>
-      </div>
-  
-      <div class="footer-column">
-        <h3>Quick Contact</h3>
-        <ul class="contact-list">
-            <li *ngFor="let contact of hero.contacts">
-              <img [src]="contact.icon" alt="icon" class="icon" />
-              <span>{{ contact.text }}</span>
-            </li>
-          </ul>
-          <h3>Connect Us</h3>
-        <div class="social-icons">
-            <a *ngFor="let social of hero.socialLinks" [href]="social.url" target="_blank">
-              <img [src]="social.icon" alt="Social Icon" class="social-icon" />
-            </a>
-          </div>
-      </div>
-  
+<footer>
+  <section class="join">
+    <div class="title">
+      <h2>
+        Stay Connected with Our Newsletter
+      </h2>
+      <p>
+        Let the latest updates and insights delivered straight to your inbox.
+      </p>
     </div>
-  </footer>
-  
+
+    <form class="content" [formGroup]="footerDetails">
+      <input placeholder="Enter your email*" required name="email" formControlName="email" />
+      <button (click)="submitForm()" [disabled]="!footerDetails.valid" *ngIf="!success">Submit</button>
+      <button class="submitted" *ngIf="success">Submitted!</button>
+    </form>
+  </section>
+
+  <section class="footer">
+    <div class="logo-div">
+      <img
+        src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/a82f3916-ee81-46b8-8d1a-3ca7abb66030_logo%20%282%29.png" />
+    </div>
+
+    <div class="main-div">
+      <div class="links">
+        <h3>Quick Links</h3>
+        <p>
+          <a *ngFor="let link of links" [routerLink]="link.url">
+            {{link.name}}
+          </a>
+        </p>
+      </div>
+
+      <div class="services">
+        <h3>Services</h3>
+        <p>
+          <a *ngFor="let link of services" [routerLink]="link.link">
+            {{link.name}}
+          </a>
+        </p>
+      </div>
+
+
+      <div class="contact">
+        <h3>Quick Contact</h3>
+        <div class="info">
+          <a target="_blank" href="https://maps.app.goo.gl/mxAWh2UVZeLkjvb57">
+            <img
+              src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/2411341f-c517-4b03-a9e5-a3553926bd04_Group%20172439.png" />
+            8-2, 326/5, Rd Number 3, Green Valley, Banjara Hills, Hyderabad, Telangana 500034
+          </a>
+          <a target="_blank" href="tel:(650)-629-3578">
+            <img
+              src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/d300c296-5fdd-4596-b4f7-9c191a3d87c7_Group.png" />
+            (650)-629-3578
+          </a>
+          <a target="_blank" href="mailTo:restaurants@tryantler.com">
+            <img
+              src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/9caa49cd-118c-47ff-af46-7981893cf6b2_Group%20172438.png" />
+            restaurants@tryantler.com
+          </a>
+        </div>
+        <h3>Connect Us</h3>
+        <div class="social">
+          <a href="https://www.linkedin.com/company/91412318/admin/feed/posts/">
+            <img
+              src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/b4bac463-39db-4f19-8d12-bfa87c1a2a21_Group%20172603.png" />
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100090764672725">
+            <img
+              src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1702c3b2-101f-49c9-b92e-938c736d6dd7_Group%20172434.png" />
+          </a>
+          <a href="https://www.instagram.com/antler.technologies">
+            <img
+              src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/1d8f0d9c-b3a9-469a-8138-5d035aa06085_Group%20172432.png" />
+          </a>
+          <a href="https://twitter.com/tryantlertech">
+            <img
+              src="https://s3.ap-south-1.amazonaws.com/cdn.ghc.health/cd711c19-5795-4377-99d3-56aa94f3cc2b_twitter%20%282%29.png" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>

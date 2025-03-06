@@ -7,44 +7,59 @@ import { AppService } from '../app.service';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
-  public template;
-  public logo;
-  public halal;
-  public css;
-  public links;
-  public tagLine;
-  public close: boolean = true;
+  public close: any;
   public isDropdownOpen: boolean = false;
-  public selectedNavCategory: any;
-  public selectedCategory: any;
-
-  constructor(private appService: AppService) {
-    this.template = this.appService.getContentData('template');
-    this.logo = this.appService.getContentData('logo');
-    this.halal = this.appService.getContentData('halal');
-    this.css = this.appService.getContentData('css');
-    this.tagLine = this.appService.getContentData('tagLine');
-    this.links = this.appService.getContentData('navbar').links;
-  }
+  public links = [
+    {
+      "name": "Home",
+      "url": "/home"
+    },
+    {
+      "name": "How it works",
+      "url": "/about"
+    },
+    {
+      "name": "Services",
+      "url": "/services",
+      "options": [
+        {
+          "name": "Website Builder",
+          "link": "/service/websiteBuilder"
+        },
+        {
+          "name": "Automated Marketing",
+          "link": "/service/automatedmarketing"
+        },
+        {
+          "name": "Zero Commission Delivery",
+          "link": "/service/zerocommissiondelivery"
+        },
+        {
+          "name": "Online Ordering",
+          "link": "/service/onlineordering"
+        },
+        {
+          "name": "Loyalty Program",
+          "link": "/service/loyaltyprogram"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact"
+    }
+  ]
+  constructor() { }
 
   ngOnInit(): void {
   }
 
-  change() {
-    this.close = !this.close;
+  toggleButton() {
+    this.isDropdownOpen = true;
   }
 
-  toggleButton(text: any) {
-      this.isDropdownOpen = true;
-      this.selectedCategory = text;
-  }
-
-  toggleSubCategories(option: any) {
-    if (this.selectedNavCategory?.name === option.name) {
-      this.selectedNavCategory = null;
-    } else {
-      this.selectedNavCategory = option;
-    }
+  change(comm: any) {
+    this.close = comm;
   }
 
   closeDropdown() {
