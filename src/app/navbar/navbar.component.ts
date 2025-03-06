@@ -20,7 +20,7 @@ export class NavbarComponent implements OnInit {
     },
     {
       "name": "Services",
-      "url": "/services",
+      "url": "/",
       "options": [
         {
           "name": "Website Builder",
@@ -40,7 +40,7 @@ export class NavbarComponent implements OnInit {
         },
         {
           "name": "Loyalty Program",
-          "link": "/service/loyaltyprogram"
+          "link": "/loyalty-program"
         }
       ]
     },

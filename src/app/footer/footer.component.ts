@@ -25,23 +25,23 @@ export class FooterComponent implements OnInit {
   public services = [
     {
       "name": "Website Builder",
-      "link": "/service/websiteBuilder"
+      "link": "/website-builder"
     },
     {
       "name": "Automated Marketing",
-      "link": "/service/automatedmarketing"
+      "link": "/automation-marketing"
     },
     {
       "name": "Zero Commission Delivery",
-      "link": "/service/zerocommissiondelivery"
+      "link": "/zero-commission-delivery"
     },
     {
       "name": "Online Ordering",
-      "link": "/service/onlineordering"
+      "link": "/online-ordering"
     },
     {
       "name": "Loyalty Program",
-      "link": "/service/loyaltyprogram"
+      "link": "/loyalty-program"
     }
   ];
   public success: boolean = false;

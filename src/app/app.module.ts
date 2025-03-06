@@ -11,7 +11,6 @@ import { AboutComponent } from './about/about.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from "@angular/common/http";
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
-import { ServiceComponent } from './service/service.component';
 import { WebsiteBuilderComponent } from './website-builder/website-builder.component';
 import { AutomationMarketingComponent } from './automation-marketing/automation-marketing.component';
 import { ZeroCommissionDeliveryComponent } from './zero-commission-delivery/zero-commission-delivery.component';
@@ -30,7 +29,6 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     HomeComponent,
     ContactComponent,
     AboutComponent,
-    ServiceComponent,
     WebsiteBuilderComponent,
     AutomationMarketingComponent,
     ZeroCommissionDeliveryComponent,
