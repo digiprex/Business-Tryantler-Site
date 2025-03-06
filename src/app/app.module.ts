@@ -7,16 +7,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
-import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
-import { BlogsComponent } from './blogs/blogs.component';
-import { PostsComponent } from './posts/posts.component';
-import { GalleryComponent } from './gallery/gallery.component';
-import { CartComponent } from './cart/cart.component';
-import { CheckoutComponent } from './checkout/checkout.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from "@angular/common/http";
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { ServiceComponent } from './service/service.component';
 
@@ -31,13 +24,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     FooterComponent,
     HomeComponent,
     ContactComponent,
-    MenuComponent,
     AboutComponent,
-    BlogsComponent,
-    PostsComponent,
-    GalleryComponent,
-    CartComponent,
-    CheckoutComponent,
     ServiceComponent
   ],
   imports: [
@@ -46,14 +33,7 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
     NgImageSliderModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: HttpLoaderFactory,
-        deps: [HttpClient]
-      }
-    })
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
